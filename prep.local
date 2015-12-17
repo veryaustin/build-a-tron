@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Set Hostname
+sudo scutil --set ComputerName "Computertron"
+sudo scutil --set LocalHostName "computertron"
+sudo scutil --set HostName "computertron"
+sudo dscacheutil -flushcache
+
+# Install Xcode Commandline
+sudo xcode-select --install
+
+# Run Apple Software Update/Apply Them
+sudo softwareupdate -i -a
+
+# Restart
+sudo shutdown -r now "Rebooting Now"
