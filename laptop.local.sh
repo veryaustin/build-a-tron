@@ -40,8 +40,9 @@ brew cask install vmware-fusion
 brew cask install virtualbox
 brew cask install sourcetree
 brew cask install dash
-brew cask install Caskroom/cask/java
+brew cask install java
 brew install bash-completion
+brew install elasticsearch
 brew install nvm
 source $(brew --prefix nvm)/nvm.sh
 
@@ -115,3 +116,5 @@ fi
 if [ -f "/Volumes/installer/alfred/license.plist" ]; then
   cp -f /Volumes/installer/alfred/license.plist $HOME/Library/Application\ Support/Alfred\ 2/
 fi
+
+# Install Dot Files
