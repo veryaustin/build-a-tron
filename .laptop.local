@@ -3,10 +3,6 @@
 # Run Apple Software Update/Apply Them
 sudo softwareupdate -i -a
 
-# Cask Install
-brew_tap 'caskroom/cask'
-brew_install_or_upgrade 'brew-cask'
-
 # Browsers
 brew cask install google-chrome
 brew cask install firefox
