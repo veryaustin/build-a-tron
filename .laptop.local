@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Run Apple Software Update/Apply Them
-sudo softwareupdate -i -a
-
 # Browsers
 brew cask install google-chrome --appdir=/Applications 
 brew cask install firefox --appdir=/Applications 
