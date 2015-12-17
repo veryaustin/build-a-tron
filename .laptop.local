@@ -4,98 +4,98 @@
 sudo softwareupdate -i -a
 
 # Browsers
-brew cask install google-chrome
-brew cask install firefox
+brew cask install google-chrome --appdir=/Applications 
+brew cask install firefox --appdir=/Applications 
 
 # Productivity
-brew cask install alfred
+brew cask install alfred --appdir=/Applications 
 
 # Storage/Documents
-brew cask install dropbox
-brew cask install google-drive
-brew cask install google-photos-backup
-brew cask install evernote
+brew cask install dropbox --appdir=/Applications 
+brew cask install google-drive --appdir=/Applications 
+brew cask install google-photos-backup --appdir=/Applications 
+brew cask install evernote --appdir=/Applications 
 
 # Design
-brew cask install balsamiq-mockups
-brew cask install ember
-brew cask install noun-project
-brew cask install skyfonts
-brew cask install colorsnapper
+brew cask install balsamiq-mockups --appdir=/Applications 
+brew cask install ember --appdir=/Applications 
+brew cask install noun-project --appdir=/Applications 
+brew cask install skyfonts --appdir=/Applications 
+brew cask install colorsnapper --appdir=/Applications 
 
 # Development
-brew cask install iterm2
-brew cask install macvim
-brew cask install codekit
-brew cask install sublime-text
-brew cask install boot2docker
-brew cask install github-desktop
-brew cask install mamp
-brew cask install transmit
-brew cask install vmware-fusion
-brew cask install virtualbox
-brew cask install sourcetree
-brew cask install dash
-brew cask install java
+brew cask install iterm2 --appdir=/Applications 
+brew cask install macvim --appdir=/Applications 
+brew cask install codekit --appdir=/Applications 
+brew cask install sublime-text --appdir=/Applications 
+brew cask install boot2docker --appdir=/Applications 
+brew cask install github-desktop --appdir=/Applications 
+brew cask install mamp --appdir=/Applications 
+brew cask install transmit --appdir=/Applications 
+brew cask install vmware-fusion --appdir=/Applications 
+brew cask install virtualbox --appdir=/Applications 
+brew cask install sourcetree --appdir=/Applications 
+brew cask install dash --appdir=/Applications 
+brew cask install java --appdir=/Applications 
 brew install bash-completion
 brew install elasticsearch
 brew install nvm
 source $(brew --prefix nvm)/nvm.sh
 
 # Database
-brew cask install postico
-brew cask install navicat-for-sqlite
-brew cask install navicat-for-postgresql
-brew cask install adobe-illustrator-cc
-brew cask install sketch
+brew cask install postico --appdir=/Applications 
+brew cask install navicat-for-sqlite --appdir=/Applications 
+brew cask install navicat-for-postgresql --appdir=/Applications 
+brew cask install adobe-illustrator-cc --appdir=/Applications 
+brew cask install sketch --appdir=/Applications 
 
 # Communication
-brew cask install slack
-brew cask install adium
-brew cask install google-hangouts
-brew cask install skype
-brew cask install joinme
+brew cask install slack --appdir=/Applications 
+brew cask install adium --appdir=/Applications 
+brew cask install google-hangouts --appdir=/Applications 
+brew cask install skype --appdir=/Applications 
+brew cask install joinme --appdir=/Applications 
 
 # Media/Entertainment
-brew cask install pocketcast
-brew cask install spotify
-brew cask install silverlight
-brew cask install flash-player
-brew cask install music-manager
-brew cask install radiant-player
-brew cask install kindle
-brew cask install adobe-photoshop-lightroom
-brew cask install gopro-studio
-brew cask install vlc
-brew cask install vlcstreamer
-brew cask install google-photos-backup
+brew cask install pocketcast --appdir=/Applications 
+brew cask install spotify --appdir=/Applications 
+brew cask install silverlight --appdir=/Applications 
+brew cask install flash-player --appdir=/Applications 
+brew cask install music-manager --appdir=/Applications 
+brew cask install radiant-player --appdir=/Applications 
+brew cask install kindle --appdir=/Applications 
+brew cask install adobe-photoshop-lightroom --appdir=/Applications 
+brew cask install gopro-studio --appdir=/Applications 
+brew cask install vlc --appdir=/Applications 
+brew cask install vlcstreamer --appdir=/Applications 
+brew cask install google-photos-backup --appdir=/Applications 
 
 # Utilities
-brew cask install chrome-remote-desktop-host
-brew cask install hazel
-brew cask install alfred
-brew cask install menumeters
-brew cask install fantastical
-brew cask install crashplan
-brew cask install duet
-brew cask install resolutionator
-brew cask install drobo-dashboard
-brew cask install carbon-copy-cloner
-brew cask install superduper
-brew cask install handbrake
-brew cask install transmission
-brew cask install google-earth
-brew cask install the-unarchiver
-brew cask install screenflow
-brew cask install gpgtools
-brew cask install istat-menus
-brew cask install a-better-finder-rename
+brew cask install chrome-remote-desktop-host --appdir=/Applications 
+brew cask install hazel --appdir=/Applications 
+brew cask install alfred --appdir=/Applications 
+brew cask install menumeters --appdir=/Applications 
+brew cask install fantastical --appdir=/Applications 
+brew cask install crashplan --appdir=/Applications 
+brew cask install duet --appdir=/Applications 
+brew cask install resolutionator --appdir=/Applications 
+brew cask install drobo-dashboard --appdir=/Applications 
+brew cask install carbon-copy-cloner --appdir=/Applications 
+brew cask install superduper --appdir=/Applications 
+brew cask install handbrake --appdir=/Applications 
+brew cask install transmission --appdir=/Applications 
+brew cask install google-earth --appdir=/Applications 
+brew cask install the-unarchiver --appdir=/Applications 
+brew cask install screenflow --appdir=/Applications 
+brew cask install gpgtools --appdir=/Applications 
+brew cask install istat-menus --appdir=/Applications 
+brew cask install a-better-finder-rename --appdir=/Applications 
 
 # Security
-brew cask install yubico-authenticator
-brew cask install yubikey-personalization-gui
-brew cask install lastpass-universal
-brew cask install 1password
+brew cask install yubico-authenticator --appdir=/Applications 
+brew cask install yubikey-personalization-gui --appdir=/Applications 
+brew cask install lastpass-universal --appdir=/Applications 
+brew cask install 1password --appdir=/Applications 
 
 # Install Specialized Software From Secure Storage
 if [ -d "/Volumes/installer/software/" ]; then
