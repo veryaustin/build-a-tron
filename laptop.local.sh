@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Run Apple Software Update/Apply Them
+sudo softwareupdate -i -a
+
 # Cask Install
 brew_tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
