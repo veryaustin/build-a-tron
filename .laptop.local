@@ -78,7 +78,6 @@ brew cask install fantastical
 brew cask install crashplan
 brew cask install duet
 brew cask install resolutionator
-brew cask install dash
 brew cask install drobo-dashboard
 brew cask install carbon-copy-cloner
 brew cask install superduper
