@@ -85,7 +85,6 @@ brew cask install handbrake
 brew cask install transmission
 brew cask install google-earth
 brew cask install the-unarchiver
-brew cask install remote-desktop-connection
 brew cask install screenflow
 brew cask install gpgtools
 brew cask install istat-menus
