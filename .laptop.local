@@ -54,7 +54,6 @@ brew cask install slack
 brew cask install skype
 brew cask install adium
 brew cask install joinme
-brew cask install gpgtools
 
 # Media/Entertainment
 brew cask install pocketcast
