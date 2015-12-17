@@ -51,8 +51,9 @@ brew cask install sketch
 
 # Communication
 brew cask install slack
-brew cask install skype
 brew cask install adium
+brew cask install google-hangouts
+brew cask install skype
 brew cask install joinme
 
 # Media/Entertainment
@@ -93,7 +94,7 @@ brew cask install a-better-finder-rename
 # Security
 brew cask install yubico-authenticator
 brew cask install yubikey-personalization-gui
-brew cask install lastpass
+brew cask install lastpass-universal
 brew cask install 1password
 
 # Install Specialized Software From Secure Storage
