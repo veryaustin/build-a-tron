@@ -1,16 +1,5 @@
 #!/bin/sh
 
-# Install Specialized Software From Secure Storage
-if [ -d "/Volumes/installer/software/" ]; then
-  cp -r /Volumes/installer/software/ /Applications
-fi
-
-# Install SSH Keys From Secure Storage
-if [ -d "/Volumes/installer/keys/" ]; then
-  cp -r /Volumes/installer/keys/ $HOME/.ssh
-fi
-
-
 # Cask Install
 brew_tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
@@ -108,3 +97,18 @@ brew cask install yubico-authenticator
 brew cask install yubikey-personalization-gui
 brew cask install lastpass
 brew cask install 1password
+
+# Install Specialized Software From Secure Storage
+if [ -d "/Volumes/installer/software/" ]; then
+  cp -r /Volumes/installer/software/ /Applications
+fi
+
+# Install SSH Keys From Secure Storage
+if [ -d "/Volumes/installer/keys/" ]; then
+  cp -r /Volumes/installer/keys/ $HOME/.ssh
+fi
+
+#Install Alfred License From Secure Storage
+if [ -f "/Volumes/installer/alfred/license.plist" ]; then
+  cp -f /Volumes/installer/alfred/license.plist $HOME/Library/Application\ Support/Alfred\ 2/
+fi
