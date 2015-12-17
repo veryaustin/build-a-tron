@@ -2,7 +2,7 @@
 
 # Download laptop.local to $HOME
 cd $HOME/
-curl --remote-name https://github.com/veryaustin/build-a-tron/.laptop.local
+curl --remote-name https://raw.githubusercontent.com/veryaustin/build-a-tron/master/.laptop.local
 
 # Clone Thoughtbot Laptop Script
 curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
