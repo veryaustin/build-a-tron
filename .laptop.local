@@ -59,6 +59,7 @@ brew cask install joinme
 brew cask install pocketcast
 brew cask install spotify
 brew cask install silverlight
+brew cask install flash-player
 brew cask install music-manager
 brew cask install radiant-player
 brew cask install kindle
