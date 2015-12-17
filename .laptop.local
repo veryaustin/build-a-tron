@@ -108,7 +108,12 @@ fi
 
 #Install Alfred License From Secure Storage
 if [ -f "/Volumes/installer/alfred/license.plist" ]; then
-  cp /Volumes/installer/alfred/license.plist $HOME/Library/Application\ Support/Alfred\ 2/license.plist
+	if [ -d "$HOME/Library/Application\ Support/Alfred\ 2/" ]; then
+			cp /Volumes/installer/alfred/license.plist $HOME/Library/Application\ Support/Alfred\ 2/license.plist
+		else
+			mkdir -p $HOME/Library/Application\ Support/Alfred\ 2/
+			cp /Volumes/installer/alfred/license.plist $HOME/Library/Application\ Support/Alfred\ 2/license.plist
+	fi
 fi
 
 # Install Dot Files
