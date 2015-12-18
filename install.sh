@@ -7,6 +7,9 @@ curl --remote-name https://raw.githubusercontent.com/veryaustin/build-a-tron/mas
 # Clone thoughtbot Laptop Script
 curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
 
+#Clone thoughtbot 
+git clone git://github.com/thoughtbot/dotfiles.git
+
 # Run thoughtbot laptop installer script
 sh mac 2>&1 | tee ~/laptop.log
 
