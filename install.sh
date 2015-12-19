@@ -10,7 +10,7 @@ curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/ma
 # Run thoughtbot laptop installer script
 sh mac 2>&1 | tee ~/laptop.log
 
-#Cleanup/Verify
+# Cleanup/Verify
 brew doctor
 
 # Clone thoughtbot dotfiles
