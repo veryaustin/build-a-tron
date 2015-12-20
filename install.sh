@@ -16,10 +16,9 @@ brew doctor
 # Clone thoughtbot dotfiles
 git clone git://github.com/thoughtbot/dotfiles.git
 
-# Clone Personal dotfiles
-git clone git@github.com:veryaustin/dotfiles.git .
+# Clone & Install Personal dotfiles
+curl -LOk --remote-name https://github.com/veryaustin/dotfiles/archive/master.zip && unzip -j master.zip && rm master.zip
+source ~/.zshrc.local
 
 # Remove thoughtbot mac file
 rm $HOME/mac
-
-echo "Installation & Configuration Complete. Please see ~/laptop.log for errors."
