@@ -10,15 +10,11 @@ curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/ma
 # Run thoughtbot laptop installer script
 sh mac 2>&1 | tee ~/laptop.log
 
-# Cleanup/Verify
-brew doctor
-
 # Clone thoughtbot dotfiles
 git clone git://github.com/thoughtbot/dotfiles.git
 
 # Clone & Install Personal dotfiles
-curl -LOk --remote-name https://github.com/veryaustin/dotfiles/archive/master.zip && unzip -j master.zip && rm master.zip
-source ~/.zshrc.local
+curl -LOk --remote-name https://github.com/veryaustin/dotfiles/archive/master.zip && unzip -j master.zip && rm master.zip && env RCRC=$HOME/dotfiles/rcrc rcup
 
 # Remove thoughtbot mac file
 rm $HOME/mac

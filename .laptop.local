@@ -19,6 +19,9 @@ brew cask install ember --appdir=/Applications
 brew cask install noun-project --appdir=/Applications
 brew cask install skyfonts --appdir=/Applications
 brew cask install colorsnapper --appdir=/Applications
+brew cask install adobe-illustrator-cc --appdir=/Applications
+brew cask install sketch --appdir=/Applications
+
 
 # Development
 brew cask install iterm2 --appdir=/Applications
@@ -34,7 +37,6 @@ brew cask install virtualbox --appdir=/Applications
 brew cask install sourcetree --appdir=/Applications
 brew cask install dash --appdir=/Applications
 brew cask install java --appdir=/Applications
-brew install bash-completion
 brew install elasticsearch
 brew install nvm
 source $(brew --prefix nvm)/nvm.sh
@@ -43,8 +45,6 @@ source $(brew --prefix nvm)/nvm.sh
 brew cask install postico --appdir=/Applications
 brew cask install navicat-for-sqlite --appdir=/Applications
 brew cask install navicat-for-postgresql --appdir=/Applications
-brew cask install adobe-illustrator-cc --appdir=/Applications
-brew cask install sketch --appdir=/Applications
 
 # Communication
 brew cask install slack --appdir=/Applications
