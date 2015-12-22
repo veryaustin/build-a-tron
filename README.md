@@ -1,6 +1,6 @@
-veryaustin: build-a-tron
+build-a-tron
 ===================
-build-a-tron is a custom script that turns a stock OS X machine into a development machine, as well as installs additional applications I use day to day. Special thanks to thoughtbot for their [laptop][lappy] script that handles the initial installation of the development environment.
+build-a-tron is a script that sets up a stock OS X machine into a development machine, as well as installs additional applications I use day to day. Special thanks to thoughtbot for their [laptop][lappy] script that handles the initial installation of the development environment.
 
 [lappy]: https://github.com/thoughtbot/laptop
 
