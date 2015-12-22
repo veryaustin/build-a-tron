@@ -104,7 +104,7 @@ What Does It Install?
   * [Spotify] for jamming to music
   * [Silverlight] for watching Netflix
   * [Flash Player] because it won't die
-  * [Music Manger] for actually managing my music
+  * [Music Manager] for actually managing my music
   * [Radiant Player] for a standalone player for Google Music
   * [Kindle] for reading Kindle books
   * [GoPro Studio] for updating my GoPro
