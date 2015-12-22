@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Set Hostname
-sudo scutil --set ComputerName "Computertron"
+sudo scutil --set ComputerName "computertron"
 sudo scutil --set LocalHostName "computertron"
 sudo scutil --set HostName "computertron"
 sudo dscacheutil -flushcache
