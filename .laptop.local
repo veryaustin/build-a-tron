@@ -10,7 +10,6 @@ brew cask install alfred --appdir=/Applications
 # Storage/Documents
 brew cask install dropbox --appdir=/Applications
 brew cask install google-drive --appdir=/Applications
-brew cask install google-photos-backup --appdir=/Applications
 brew cask install evernote --appdir=/Applications
 
 # Design
@@ -69,8 +68,6 @@ brew cask install google-photos-backup --appdir=/Applications
 # Utilities
 brew cask install chrome-remote-desktop-host --appdir=/Applications
 brew cask install hazel --appdir=/Applications
-brew cask install alfred --appdir=/Applications
-brew cask install menumeters --appdir=/Applications
 brew cask install fantastical --appdir=/Applications
 brew cask install crashplan --appdir=/Applications
 brew cask install duet --appdir=/Applications
