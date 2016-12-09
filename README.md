@@ -64,11 +64,14 @@ What Does It Install?
 
 * build-a-tron laptop configuration sets up the following:
   * [Google Chrome] Browser
+  * [Blisk] Browser
   * [Mozilla Firefox] Browser
+  * [Tor] Browser
   * [Alfred] for application & file launching
   * [Dropbox] for file storage
   * [Google Drive] for file storage
   * [Google Photos] for photo backup
+  * [Plex] media server for serving local media over the network
   * [Evernote] for note taking/resource clipping
   * [Balsamiq Mockups] for mocking up wireframes
   * [Ember] for clipping design elements
@@ -80,10 +83,12 @@ What Does It Install?
   * [iTerm] Terminal alternative
   * [MacVim] Vim client for mac
   * [CodeKit] Sass, Less, Jade, Haml, Javascript compiler
-  * [Sublime Text] for editing code
-  * [Boot2docker] for running docker containers
+  * [Atom] for editing code
+  * [Postman] for making API Requests
+  * [Paw] for making API Requests
   * [Github Desktop] for a nice GUI for git
   * [MAMP] for quickly running sites on apache
+  * [Kitematic] GUI for running docker containers
   * [Transmit] for FTP/SFTP
   * [VMWare Fusion] for running virtual machines
   * [Virtual Box] for running virtual machines
@@ -91,7 +96,9 @@ What Does It Install?
   * [Dash] for local code documentation
   * [Java] for the occasional app that needs it
   * [Elasticsearch] for running elasticsearch of all things
+  * [Mou] Native Mac markdown editor
   * [NVM] Node Version Manager
+  * [Postgres App] for a simple standalone Postgres server
   * [Postico] for a simple postgres GUI
   * [Navicat For SQLite] for a SQLite GUI
   * [Navicat For Postgresql] for another postgres GUI
@@ -99,15 +106,16 @@ What Does It Install?
   * [Adium] for jabber chat
   * [Google Hangouts] for hanging out with Google
   * [Skype] for using the Kleenex of video chat
-  * [Joinme] for adhoc meetings and troubleshooting sessions
+  * [Join Me] for adhoc meetings and troubleshooting sessions
+  * [Ghost App] for desktop administration & writing on the Ghost publishing platform
   * [Pocketcasts] for listing to podcasts
   * [Spotify] for jamming to music
   * [Silverlight] for watching Netflix
   * [Flash Player] because it won't die
-  * [Music Manager] for actually managing my music
-  * [Radiant Player] for a standalone player for Google Music
+  * [Flux] for turning down the blue light
   * [Kindle] for reading Kindle books
   * [GoPro Studio] for updating my GoPro
+  * [Clipgrab] for grabbing video clips
   * [VLC] for viewing almost any video format
   * [VLC Streamer] for streaming almost any video format
   * [Chrome Remote Desktop Host]: for remoting into workstations logged into chrome
@@ -157,11 +165,14 @@ What Does It Install?
 [Zsh]: http://www.zsh.org/
 
 [Google Chrome]: https://www.google.com/chrome/
+[Blisk]: https://blisk.io/
 [Mozilla Firefox]: https://www.mozilla.org/en-US/firefox/new/
+[Tor]: https://www.torproject.org/projects/torbrowser.html
 [Alfred]: https://www.alfredapp.com/
 [Dropbox]: http://dropbox.com/
 [Google Drive]: http://drive.google.com/
 [Google Photos]: http://photos.google.com
+[Plex]: https://www.plex.tv/
 [Evernote]: http://www.evernote.com
 [Balsamiq Mockups]: https://balsamiq.com/products/mockups/
 [Ember]: http://realmacsoftware.com/ember/
@@ -173,8 +184,9 @@ What Does It Install?
 [iTerm]: https://www.iterm2.com/
 [MacVim]: https://github.com/b4winckler/macvim/releases
 [CodeKit]: https://incident57.com/codekit/
-[Sublime Text]: http://www.sublimetext.com/
-[Boot2docker]: https://docs.docker.com/v1.8/installation/mac/
+[Atom]: http://www.atom.io/
+[Postman]: https://www.getpostman.com/
+[Paw]: https://paw.cloud/
 [Github Desktop]: https://desktop.github.com/
 [MAMP]: https://www.mamp.info/en/
 [Transmit]: https://panic.com/transmit/
@@ -184,7 +196,9 @@ What Does It Install?
 [Dash]: https://kapeli.com/dash
 [Java]: https://www.java.com/en/download/
 [Elasticsearch]: https://www.elastic.co/
+[Mou]: http://25.io/mou/
 [NVM]: https://github.com/creationix/nvm
+[Postgres App]: http://postgresapp.com/
 [Postico]: https://eggerapps.at/postico/
 [Navicat For SQLite]: http://www.navicat.com/products/navicat-for-sqlite/
 [Navicat For Postgresql]: http://www.navicat.com/products/navicat-for-postgresql/
@@ -192,15 +206,16 @@ What Does It Install?
 [Adium]: https://adium.im/
 [Google Hangouts]: http://hangouts.google.com/
 [Skype]: http://skype.com/
-[Joinme]: http://join.me/
+[Join Me]: http://join.me/
+[Ghost App]: https://ghost.org/downloads/
 [Pocketcasts]: http://www.shiftyjelly.com/pocketcasts/
 [Spotify]: http://www.spotify.com/
 [Silverlight]: https://www.microsoft.com/silverlight/
 [Flash Player]: https://get.adobe.com/flashplayer/
 [Music Manager]: https://play.google.com/music/listen?u=0#/manager/
-[Radiant Player]: http://radiant-player.github.io/radiant-player-mac/
 [Kindle]: https://itunes.apple.com/us/app/kindle/id405399194?mt=12
 [GoPro Studio]: http://shop.gopro.com/softwareandapp/gopro-studio/GoPro-Studio.html
+[Clipgrab]: https://clipgrab.org/
 [VLC]: http://www.videolan.org/vlc/index.html
 [VLC Streamer]: http://hobbyistsoftware.com/vlcstreamer
 [Chrome Remote Desktop Host]: https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=en
@@ -223,3 +238,4 @@ What Does It Install?
 [Yubico Authenticator]: https://developers.yubico.com/yubioath-desktop/
 [Yubico Yubikey Personalization GUI]: https://www.yubico.com/products/services-software/personalization-tools/use/
 [LastPass]: https://lastpass.com/
+[Flux]: https://justgetflux.com/
