@@ -138,6 +138,7 @@ What Does It Install?
   * [Yubico Authenticator] for Authenticating with a Yubikey
   * [Yubico Yubikey Personalization GUI]: for personalizing a Yubikey
   * [LastPass] for managing passwords
+  * [Tripmode] for managing network traffic while tethered to mobile devices
   * Specialized Software:
     * If secure storage USB key is mounted, copy specialized application, SSH keys & Alfred License
 * Clone & install thoughtbot dotfiles repo
@@ -239,3 +240,4 @@ What Does It Install?
 [Yubico Yubikey Personalization GUI]: https://www.yubico.com/products/services-software/personalization-tools/use/
 [LastPass]: https://lastpass.com/
 [Flux]: https://justgetflux.com/
+[Tripmode]: http://tripmode.ch/
