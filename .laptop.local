@@ -12,6 +12,7 @@ brew cask install alfred
 # Storage/Documents
 brew cask install dropbox
 brew cask install google-drive
+brew cask install insync
 brew cask install evernote
 
 # Design
