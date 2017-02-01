@@ -140,7 +140,6 @@ What Does It Install?
   * [Yubico Yubikey Personalization GUI]: for personalizing a Yubikey
   * [LastPass] for managing passwords
   * [Tripmode] for managing network traffic while tethered to mobile devices
-  * [Screens 3] for connecting to ARD and VNC screen sessions
   * Specialized Software:
     * If secure storage USB key is mounted, copy specialized application, SSH keys & Alfred License
 * Clone & install thoughtbot dotfiles repo
@@ -244,4 +243,3 @@ What Does It Install?
 [LastPass]: https://lastpass.com/
 [Flux]: https://justgetflux.com/
 [Tripmode]: http://tripmode.ch/
-[Screens 3]: http://edovia.com/screens/
