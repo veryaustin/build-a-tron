@@ -71,7 +71,6 @@ What Does It Install?
   * [Dropbox] for file storage
   * [Google Drive] for file storage
   * [Google Photos] for photo backup
-  * [Insync] for additional Google Drive sync options
   * [Plex] media server for serving local media over the network
   * [Evernote] for note taking/resource clipping
   * [Balsamiq Mockups] for mocking up wireframes
@@ -174,7 +173,6 @@ What Does It Install?
 [Dropbox]: http://dropbox.com/
 [Google Drive]: http://drive.google.com/
 [Google Photos]: http://photos.google.com
-[Insync]: https://www.insynchq.com
 [Plex]: https://www.plex.tv/
 [Evernote]: http://www.evernote.com
 [Balsamiq Mockups]: https://balsamiq.com/products/mockups/
