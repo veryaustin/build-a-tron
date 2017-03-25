@@ -8,8 +8,9 @@ Requirements
 --------------
 build-a-tron supports the following operating systems:
 
-*  OS X Mavericks (10.9)
-*  OS X Yosemite (10.10)
+*  macOS Mavericks (10.9)
+*  macOS Yosemite (10.10)
+*  macOS El Capitan (10.11)
 
 build-a-tron requires Xcode 7.2 or above to install and can be downloaded from the [Mac App Store][appstore] After installing Xcode, make sure launch it and accept the license requirements & finish installing components.
 
@@ -31,14 +32,14 @@ sh install.local
 
 What Does It Install?
 ---------------------
-###prep.local
+### prep.local
 
 * Sets ComputerName, LocalHostName & HostName to "Computertron"
 * Installs Xcode Commandline Tools
 * Runs Apple Software Update & applies update
 * Restarts Machine
 
-###install.local
+### install.local
 
 * Downloads build-a-tron laptop configuration
 * Downloads thoughtbot [laptop][lappy] application
