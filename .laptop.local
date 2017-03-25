@@ -94,6 +94,8 @@ brew cask install istat-menus
 brew cask install a-better-finder-rename
 brew cask install flux
 brew cask install tripmode
+brew cask install audio-hijack
+brew cask install loopback
 
 # Security
 brew cask install yubico-authenticator

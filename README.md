@@ -118,6 +118,8 @@ What Does It Install?
   * [Clipgrab] for grabbing video clips
   * [VLC] for viewing almost any video format
   * [VLC Streamer] for streaming almost any video format
+  * [Audio Hi-Jack] for recording/routing internal audio
+  * [Loopback] for creating virtual internal I/O audio interfaces
   * [Chrome Remote Desktop Host]: for remoting into workstations logged into chrome
   * [Hazel]: for automating & keeping my workstation clean
   * [iStat Menus] for keeping an eye on workstation resources
@@ -164,7 +166,6 @@ What Does It Install?
 [The Silver Searcher]: https://github.com/ggreer/the_silver_searcher
 [Tmux]: http://tmux.sourceforge.net/
 [Zsh]: http://www.zsh.org/
-
 [Google Chrome]: https://www.google.com/chrome/
 [Blisk]: https://blisk.io/
 [Mozilla Firefox]: https://www.mozilla.org/en-US/firefox/new/
@@ -241,3 +242,5 @@ What Does It Install?
 [LastPass]: https://lastpass.com/
 [Flux]: https://justgetflux.com/
 [Tripmode]: http://tripmode.ch/
+[Audio Hi-Jack]: https://www.rogueamoeba.com/audiohijack/
+[Loopback]: https://www.rogueamoeba.com/loopback/
