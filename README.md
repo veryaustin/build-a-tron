@@ -141,6 +141,7 @@ What Does It Install?
   * [Yubico Authenticator] for Authenticating with a Yubikey
   * [Yubico Yubikey Personalization GUI]: for personalizing a Yubikey
   * [LastPass] for managing passwords
+  * [Tunnel Bear] for OpenVPN privacy on public networks
   * [Tripmode] for managing network traffic while tethered to mobile devices
   * Specialized Software:
     * If secure storage USB key is mounted, copy specialized application, SSH keys & Alfred License
@@ -241,6 +242,7 @@ What Does It Install?
 [Yubico Authenticator]: https://developers.yubico.com/yubioath-desktop/
 [Yubico Yubikey Personalization GUI]: https://www.yubico.com/products/services-software/personalization-tools/use/
 [LastPass]: https://lastpass.com/
+[Tunnel Bear]: https://www.tunnelbear.com/
 [Flux]: https://justgetflux.com/
 [Tripmode]: http://tripmode.ch/
 [Audio Hi-Jack]: https://www.rogueamoeba.com/audiohijack/

@@ -102,6 +102,7 @@ brew cask install yubico-authenticator
 brew cask install yubikey-personalization-gui
 brew cask install lastpass
 brew cask install veracrypt
+brew cask install tunnelbear
 
 # Install Specialized Software From Secure Storage
 if [ -d "/Volumes/installer/software/" ]; then
