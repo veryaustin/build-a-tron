@@ -14,7 +14,7 @@ sh mac 2>&1 | tee ~/laptop.log
 git clone git://github.com/thoughtbot/dotfiles.git
 
 # Clone & Install Personal dotfiles
-curl -LOk --remote-name https://github.com/veryaustin/dotfiles/archive/master.zip && unzip -j master.zip && rm master.zip && env RCRC=$HOME/dotfiles/rcrc rcup
+curl -LOk --remote-name https://github.com/veryaustin/dotfiles/archive/master.zip && unzip -j master.zip -d $HOME/dotfiles-local && rm master.zip && env RCRC=$HOME/dotfiles/rcrc rcup
 
 # Remove thoughtbot mac file
 rm $HOME/mac
