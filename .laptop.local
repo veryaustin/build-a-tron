@@ -1,11 +1,11 @@
 #!/bin/sh
 
-<<"Homebrew Installations"
+#Homebrew Installations
 brew install elasticsearch
 brew install nvm
 source $(brew --prefix nvm)/nvm.sh
 
-<<"Brew Cask Installations"
+#Brew Cask Installations
 # Browsers
 brew cask install google-chrome
 brew cask install blisk
