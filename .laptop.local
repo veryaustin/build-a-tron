@@ -33,6 +33,7 @@ brew cask install sketch
 brew cask install iterm2
 brew cask install macvim
 brew cask install codekit
+brew cask install visual-studio-code
 brew cask install atom
 brew cask install postman
 brew cask install paw
@@ -63,7 +64,7 @@ brew cask install joinme
 brew cask install ghost
 
 # Media/Entertainment
-brew cask install pocketcast
+brew cask install pocketcasts
 brew cask install spotify
 brew cask install silverlight
 brew cask install flash-player
@@ -101,8 +102,6 @@ brew cask install audio-hijack
 brew cask install loopback
 
 # Security
-brew cask install yubico-authenticator
-brew cask install yubikey-personalization-gui
 brew cask install lastpass
 brew cask install veracrypt
 brew cask install tunnelbear

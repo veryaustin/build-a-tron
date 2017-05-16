@@ -157,8 +157,6 @@ Databases:
     * [Screenflow] for recording my screen
     * [GPG] for keeping prying eyes from reading what they shouldn't
     * [A Better Finder Rename] for batch renaming files
-    * [Yubico Authenticator] for Authenticating with a Yubikey
-    * [Yubico Yubikey Personalization GUI]: for personalizing a Yubikey
     * [LastPass] for managing passwords
     * [Tunnel Bear] for OpenVPN privacy on public networks
     * [Tripmode] for managing network traffic while tethered to mobile devices
@@ -293,8 +291,6 @@ Databases:
 [Screenflow]: http://www.telestream.net/screenflow/overview.htm
 [GPG]: https://gpgtools.org/
 [A Better Finder Rename]: http://www.publicspace.net/ABetterFinderRename/
-[Yubico Authenticator]: https://developers.yubico.com/yubioath-desktop/
-[Yubico Yubikey Personalization GUI]: https://www.yubico.com/products/services-software/personalization-tools/use/
 [LastPass]: https://lastpass.com/
 [Tunnel Bear]: https://www.tunnelbear.com/
 [Flux]: https://justgetflux.com/
