@@ -1,5 +1,11 @@
 #!/bin/sh
 
+<<"Homebrew Installations"
+brew install elasticsearch
+brew install nvm
+source $(brew --prefix nvm)/nvm.sh
+
+<<"Brew Cask Installations"
 # Browsers
 brew cask install google-chrome
 brew cask install blisk
@@ -41,9 +47,6 @@ brew cask install sourcetree
 brew cask install dash
 brew cask install java
 brew cask install mou
-brew install elasticsearch
-brew install nvm
-source $(brew --prefix nvm)/nvm.sh
 
 # Database
 brew cask install postgres
@@ -106,20 +109,80 @@ brew cask install tunnelbear
 
 # Install Specialized Software From Secure Storage
 if [ -d "/Volumes/installer/software/" ]; then
-  cp -r /Volumes/installer/software/ /Applications
+		cp -r /Volumes/installer/software/ /Applications
+		printf "Custom software successfully copied"
+  else
+		printf "Secure storage not available"
 fi
 
 # Install SSH Keys From Secure Storage
 if [ -d "/Volumes/installer/keys/" ]; then
-  cp -r /Volumes/installer/keys/ $HOME/.ssh
+		cp -r /Volumes/installer/keys/ $HOME/.ssh
+		printf "SSH keys successfully copied"
+  else
+		printf "Secure storage not available"
 fi
 
-#Install Alfred License From Secure Storage
-if [ -f "/Volumes/installer/alfred/license.plist" ]; then
-	if [ -d "$HOME/Library/Application\ Support/Alfred\ 2/" ]; then
-			cp /Volumes/installer/alfred/license.plist $HOME/Library/Application\ Support/Alfred\ 2/license.plist
-		else
-			mkdir -p $HOME/Library/Application\ Support/Alfred\ 2/
-			cp /Volumes/installer/alfred/license.plist $HOME/Library/Application\ Support/Alfred\ 2/license.plist
-	fi
+# Install GPG Keys From Secure Storage
+if [ -d "/Volumes/installer/gpg/.gnupg/" ]; then
+    cp -r /Volumes/installer/gpg/.gnupg $HOME/.gnupg
+    printf "GPG keys successfully copied"
+  else
+    printf "Secure storage not available"
 fi
+
+# Install Alfred License From Secure Storage
+if [ -f "/Volumes/installer/alfred/license.plist" ]; then
+		if [ -d "$HOME/Library/Application\ Support/Alfred\ 2/" ]; then
+				cp /Volumes/installer/alfred/license.plist $HOME/Library/Application\ Support/Alfred\ 2/license.plist
+			else
+				mkdir -p $HOME/Library/Application\ Support/Alfred\ 2/
+				cp /Volumes/installer/alfred/license.plist $HOME/Library/Application\ Support/Alfred\ 2/license.plist
+		fi
+		printf "Alfred license successfully copied"
+	else
+		printf "Secure storage not available"
+fi
+
+# Install LastPass CLI
+brew install lastpass-cli
+
+# LastPass Sign In
+lpass login
+
+# Get App Store Username & Password
+username="$(lpass show iCloud --username)"
+password="$(lpass show iCloud --password)"
+
+# Mas Mac App Store Command Line Interface
+brew install mas
+
+# Sign Into App Store
+mas signin $username $password
+
+# App Store Applications
+mas install 422304217 
+mas install 425264550
+mas install 435003921
+mas install 909566003
+mas install 417602904 
+mas install 982710545
+mas install 928871589
+mas install 414209656
+mas install 441258766
+mas install 672062950
+mas install 425424353
+mas install 568494494
+mas install 485812721
+mas install 409789998
+mas install 494803304
+mas install 420212497
+mas install 409201541
+mas install 1054607607
+mas install 412675054
+mas install 406226796
+mas install 437835477
+mas install 1091189122
+
+# LastPass Sign Out
+lpass logout
