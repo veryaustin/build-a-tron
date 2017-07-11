@@ -11,10 +11,7 @@ build-a-tron supports the following operating systems:
 *  macOS Mavericks (10.9)
 *  macOS Yosemite (10.10)
 *  macOS El Capitan (10.11)
-
-build-a-tron requires Xcode 7.2 or above to install and can be downloaded from the [Mac App Store][appstore] After installing Xcode, make sure launch it and accept the license requirements & finish installing components.
-
-[appstore]: https://itunes.apple.com/us/app/Xcode/id497799835?mt=12
+*  macOS Sierra (10.12)
 
 Install
 ------
@@ -35,7 +32,7 @@ What Does It Install?
 ### prep.local
 
 * Sets ComputerName, LocalHostName & HostName to "Computertron"
-* Installs Xcode Commandline Tools
+* Installs Xcode Tools (From Secure External Storage)
 * Runs Apple Software Update & applies update
 * Restarts Machine
 
@@ -90,11 +87,10 @@ Databases:
     * [Alfred] for application & file launching
     * [Dropbox] for file storage
     * [Google Drive] for file storage
-    * [Google Photos] for photo backup
+    * [Google Photos Backup] for file storage
     * [Plex] media server for serving local media over the network
     * [Evernote] for note taking/resource clipping
     * [Balsamiq Mockups] for mocking up wireframes
-    * [Ember] for clipping design elements
     * [Noun Project] for icon library
     * [Skyfonts] for integrating Google Fonts into the system
     * [Color Snapper] for selecting colors
@@ -103,6 +99,7 @@ Databases:
     * [iTerm] Terminal alternative
     * [MacVim] Vim client for mac
     * [CodeKit] Sass, Less, Jade, Haml, Javascript compiler
+    * [VSCode] for editing code
     * [Atom] for editing code
     * [Postman] for making API Requests
     * [Paw] for making API Requests
@@ -156,10 +153,11 @@ Databases:
     * [The Unarchiver] for unziping most compressed files
     * [Screenflow] for recording my screen
     * [GPG] for keeping prying eyes from reading what they shouldn't
-    * [A Better Finder Rename] for batch renaming files
     * [LastPass] for managing passwords
     * [Tunnel Bear] for OpenVPN privacy on public networks
+    * [Veracrypt] for encrypting drives
     * [Tripmode] for managing network traffic while tethered to mobile devices
+  
   * Mac App Store Applications:
     * [Day One Classic] for note/taking & journaling.
     * [Blackmagic Disk Speed Test] for testing the read/write speed of disks
@@ -183,6 +181,11 @@ Databases:
     * [Audiobook Builder]: for cutting/editing and publishing audio books
     * [PageLayers] for clipping websites and creating Photoshop layouts
     * [Bear] for clipping articles and taking notes. More simple thatn Evernote
+    * [FocusList] for clipping articles and taking notes. More simple thatn Evernote
+    * [LastPass App] for managing passwords
+    * [YubiKey Personalization Tool] for personalizing Yubikeys
+    * [Paws For Trello] for having a desktop client for Trello
+  
   * Specialized Software:
     * If secure storage USB key is mounted, copy specialized applications, keys & additional software licenses
 * Clone & install thoughtbot dotfiles repo
@@ -226,11 +229,10 @@ Databases:
 [Alfred]: https://www.alfredapp.com/
 [Dropbox]: http://dropbox.com/
 [Google Drive]: http://drive.google.com/
-[Google Photos]: http://photos.google.com
+[Google Photos Backup]: http://photos.google.com
 [Plex]: https://www.plex.tv/
 [Evernote]: http://www.evernote.com
 [Balsamiq Mockups]: https://balsamiq.com/products/mockups/
-[Ember]: http://realmacsoftware.com/ember/
 [Noun Project]: https://thenounproject.com/
 [Skyfonts]: http://skyfonts.com/
 [Color Snapper]: http://colorsnapper.com/
@@ -239,6 +241,7 @@ Databases:
 [iTerm]: https://www.iterm2.com/
 [MacVim]: https://github.com/b4winckler/macvim/releases
 [CodeKit]: https://incident57.com/codekit/
+[VSCode]: https://code.visualstudio.com/
 [Atom]: http://www.atom.io/
 [Postman]: https://www.getpostman.com/
 [Paw]: https://paw.cloud/
@@ -290,13 +293,16 @@ Databases:
 [The Unarchiver]: http://unarchiver.c3.cx/
 [Screenflow]: http://www.telestream.net/screenflow/overview.htm
 [GPG]: https://gpgtools.org/
-[A Better Finder Rename]: http://www.publicspace.net/ABetterFinderRename/
 [LastPass]: https://lastpass.com/
 [Tunnel Bear]: https://www.tunnelbear.com/
 [Flux]: https://justgetflux.com/
 [Tripmode]: http://tripmode.ch/
 [Audio Hi-Jack]: https://www.rogueamoeba.com/audiohijack/
 [Loopback]: https://www.rogueamoeba.com/loopback/
+[Veracrypt]: https://veracrypt.codeplex.com/
+[Tunnel Bear]: https://www.tunnelbear.com/
+
+
 
 [Day One Classic]: http://dayoneapp.com/
 [Blackmagic Disk Speed Test]: https://itunes.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12
@@ -320,3 +326,7 @@ Databases:
 [Audiobook Builder]: https://itunes.apple.com/us/app/audiobook-builder/id406226796?mt=12
 [PageLayers]: https://itunes.apple.com/us/app/page-layers-website-screenshots-with-layers/id437835477?mt=12
 [Bear]: https://itunes.apple.com/us/app/bear-beautiful-writing-app-for-notes-and-prose/id1091189122?mt=12
+[FocusList]: https://itunes.apple.com/us/app/focuslist-focus-timer-and-daily-planner/id1086877679?mt=12
+[LastPass App]: https://itunes.apple.com/us/app/lastpass-password-manager-and-secure-vault/id926036361?mt=12
+[YubiKey Personalization Tool]: https://itunes.apple.com/us/app/yubikey-personalization-tool/id638161122?mt=12
+[Paws For Trello]: https://itunes.apple.com/us/app/paws-for-trello/id1124077199?mt=12

@@ -1,11 +1,56 @@
 #!/bin/sh
 
-#Homebrew Installations
+# Variables
+SECURE_STORAGE="/Volumes/installer"
+
+# Statement Variables
+COPY_SUCCESS="successfully copied"
+COPY_ERROR="Secure storage not available"
+
+# Copy Function args($1 = Description, $2 = Source, $3 = Destination)
+function copy_assets () {
+  if [ -d "$2" ]; then
+    sudo cp -R "$2" "$3"
+      echo "$1 ${COPY_SUCCESS}"
+    else
+      echo ${COPY_ERROR}
+  fi
+} 
+
+
+# //--- Secure Storage/Setting Installations ---//
+
+# Copy SSH Keys From Secure Storage
+copy_assets "SSH keys" "$SECURE_STORAGE/keys/" "$HOME/.ssh/"
+
+# Copy GPG Keys From Secure Storage
+copy_assets "GPG keys" "$SECURE_STORAGE/gpg/.gnupg/" "$HOME/.gnupg"
+
+# Optional Install of Preferences (Un-Comment Out)
+
+# Copy User Preferences
+# copy_assets "User preferences" "$SECURE_STORAGE/preferences/user_preferences/" "$HOME/Library/Preferences/"
+
+# Copy Global Preferences
+# copy_assets "Global preferences" "$SECURE_STORAGE/preferences/global_preferences/" "/Library/Preferences"
+
+# Copy Application Support
+# copy_assets "Application support" "$SECURE_STORAGE/application_support/" "$HOME/Library/Application Support/"
+
+# Copy Fonts
+copy_assets "Fonts" "$SECURE_STORAGE/fonts/" "$HOME/Library/Fonts/"
+
+
+# //--- Homebrew Installations ---//
+brew cask install java #Required For Elastic Search to be installed
+
 brew install elasticsearch
 brew install nvm
 source $(brew --prefix nvm)/nvm.sh
 
-#Brew Cask Installations
+
+# //--- Brew Cask Installations ---//
+
 # Browsers
 brew cask install google-chrome
 brew cask install blisk
@@ -22,7 +67,6 @@ brew cask install evernote
 
 # Design
 brew cask install balsamiq-mockups
-brew cask install ember
 brew cask install noun-project
 brew cask install skyfonts
 brew cask install colorsnapper
@@ -46,7 +90,6 @@ brew cask install vmware-fusion
 brew cask install virtualbox
 brew cask install sourcetree
 brew cask install dash
-brew cask install java
 brew cask install mou
 
 # Database
@@ -69,7 +112,6 @@ brew cask install spotify
 brew cask install silverlight
 brew cask install flash-player
 brew cask install music-manager
-brew cask install radiant-player
 brew cask install kindle
 brew cask install gopro-studio
 brew cask install clipgrab
@@ -95,7 +137,6 @@ brew cask install the-unarchiver
 brew cask install screenflow
 brew cask install gpgtools
 brew cask install istat-menus
-brew cask install a-better-finder-rename
 brew cask install flux
 brew cask install tripmode
 brew cask install audio-hijack
@@ -106,82 +147,54 @@ brew cask install lastpass
 brew cask install veracrypt
 brew cask install tunnelbear
 
-# Install Specialized Software From Secure Storage
-if [ -d "/Volumes/installer/software/" ]; then
-		cp -r /Volumes/installer/software/ /Applications
-		printf "Custom software successfully copied"
-  else
-		printf "Secure storage not available"
-fi
 
-# Install SSH Keys From Secure Storage
-if [ -d "/Volumes/installer/keys/" ]; then
-		cp -r /Volumes/installer/keys/ $HOME/.ssh
-		printf "SSH keys successfully copied"
-  else
-		printf "Secure storage not available"
-fi
-
-# Install GPG Keys From Secure Storage
-if [ -d "/Volumes/installer/gpg/.gnupg/" ]; then
-    cp -r /Volumes/installer/gpg/.gnupg $HOME/.gnupg
-    printf "GPG keys successfully copied"
-  else
-    printf "Secure storage not available"
-fi
-
-# Install Alfred License From Secure Storage
-if [ -f "/Volumes/installer/alfred/license.plist" ]; then
-		if [ -d "$HOME/Library/Application\ Support/Alfred\ 2/" ]; then
-				cp /Volumes/installer/alfred/license.plist $HOME/Library/Application\ Support/Alfred\ 2/license.plist
-			else
-				mkdir -p $HOME/Library/Application\ Support/Alfred\ 2/
-				cp /Volumes/installer/alfred/license.plist $HOME/Library/Application\ Support/Alfred\ 2/license.plist
-		fi
-		printf "Alfred license successfully copied"
-	else
-		printf "Secure storage not available"
-fi
+# //--- Mac App Store Installations ---//
 
 # Install LastPass CLI
 brew install lastpass-cli
 
 # LastPass Sign In
-lpass login
+echo -n "Enter your LastPass username and press [ENTER]: "
+read LastPassUsername
+lpass login "$LastPassUsername"
 
 # Get App Store Username & Password
-username="$(lpass show iCloud --username)"
-password="$(lpass show iCloud --password)"
+IcloudUsername="$(lpass show iCloud --username)"
+IcloudPassword="$(lpass show iCloud --password)"
 
 # Mas Mac App Store Command Line Interface
 brew install mas
 
 # Sign Into App Store
-mas signin $username $password
+mas signin $IcloudUsername $IcloudPassword
 
 # App Store Applications
-mas install 422304217 
-mas install 425264550
-mas install 435003921
-mas install 909566003
-mas install 417602904 
-mas install 982710545
-mas install 928871589
-mas install 414209656
-mas install 441258766
-mas install 672062950
-mas install 425424353
-mas install 568494494
-mas install 485812721
-mas install 409789998
-mas install 494803304
-mas install 420212497
-mas install 409201541
-mas install 1054607607
-mas install 412675054
-mas install 406226796
-mas install 437835477
-mas install 1091189122
+mas install 422304217  # Day One Classic
+mas install 425264550  # Blackmagic Disk Speed Test
+mas install 435003921  # Fantastical
+mas install 909566003  # iHex
+mas install 417602904  # CloudApp
+mas install 982710545  # Forecast Bar
+mas install 928871589  # Noizio
+mas install 414209656  # Better Rename 9
+mas install 441258766  # Magnet
+mas install 672062950  # Video2GIF
+mas install 425424353  # The Unarchiver
+mas install 568494494  # Pocket
+mas install 485812721  # TweetDeck
+mas install 409789998  # Twitter
+mas install 494803304  # WiFi Explorer
+mas install 420212497  # Byword
+mas install 409201541  # Pages
+mas install 1054607607 # Helium
+mas install 412675054  # Tunesify
+mas install 406226796  # Audiobook Builder
+mas install 437835477  # PageLayers
+mas install 1091189122 # Bear
+mas install 1086877679 # FocusList
+mas install 926036361  # LastPass App
+mas install 638161122  # YubiKey Personalization Tool
+mas install 1124077199 # Paws For Trello
 
 # LastPass Sign Out
 lpass logout
