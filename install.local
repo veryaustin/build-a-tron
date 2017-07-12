@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# Xcode License Agreement
+sudo xcodebuild -license
+
+# Navigate to Home Directory
+cd $HOME
+
+# Download laptop.local
+curl --remote-name https://raw.githubusercontent.com/veryaustin/build-a-tron/master/.laptop.local
+
+# Clone forked thoughtbot Laptop Script
+curl --remote-name https://raw.githubusercontent.com/veryaustin/laptop/master/mac
+
+# Run laptop installer script
+sh mac 2>&1 | tee ~/laptop.log
+
+# Clone thoughtbot dotfiles
+git clone git://github.com/veryaustin/dotbotfiles.git $HOME/dotfiles
+
+# Clone & Install Personal dotfiles
+git clone git://github.com/veryaustin/dotfiles.git $HOME/dotfiles-local && env RCRC=$HOME/dotfiles/rcrc rcup
+
+# Remove thoughtbot mac file
+rm $HOME/mac

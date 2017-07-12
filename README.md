@@ -1,60 +1,48 @@
-Laptop
-======
+build-a-tron is a script that sets up a stock OS X machine into a development machine, as well as installs additional applications I use day to day. Special thanks to thoughtbot for their [laptop][lappy] script that handles the initial installation of the development environment.
 
-Laptop is a script to set up an macOS laptop for web development.
-
-It can be run multiple times on the same machine safely.
-It installs, upgrades, or skips packages
-based on what is already installed on the machine.
+[lappy]: https://github.com/thoughtbot/laptop
 
 Requirements
-------------
+--------------
+build-a-tron supports the following operating systems:
 
-We support:
-
-* macOS Mavericks (10.9)
-* macOS Yosemite (10.10)
-* macOS El Capitan (10.11)
-* macOS Sierra (10.12)
-
-Older versions may work but aren't regularly tested. Bug reports for older
-versions are welcome.
+*  macOS Mavericks (10.9)
+*  macOS Yosemite (10.10)
+*  macOS El Capitan (10.11)
+*  macOS Sierra (10.12)
 
 Install
--------
-
-Download, review, then execute the script:
-
-```sh
-curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
-less mac
-sh mac 2>&1 | tee ~/laptop.log
+------
+Download & execute prep.local:
+```
+curl --remote-name https://raw.githubusercontent.com/veryaustin/build-a-tron/master/prep.local
+sh prep.local
 ```
 
-Optionally, [install thoughtbot/dotfiles][dotfiles].
+After reboot, download & execute install.local
+```
+curl --remote-name https://raw.githubusercontent.com/veryaustin/build-a-tron/master/install.local
+sh install.local
+```
 
-[dotfiles]: https://github.com/thoughtbot/dotfiles#install
+What Does It Install?
+---------------------
+### prep.local
 
-Debugging
----------
+* Sets ComputerName, LocalHostName & HostName to "Computertron"
+* Installs Xcode Tools (From Secure External Storage)
+* Runs Apple Software Update & applies update
+* Restarts Machine
 
-Your last Laptop run will be saved to `~/laptop.log`.
-Read through it to see if you can debug the issue yourself.
-If not, copy the lines where the script failed into a
-[new GitHub Issue](https://github.com/thoughtbot/laptop/issues/new) for us.
-Or, attach the whole log file as an attachment.
+### install.local
 
-What it sets up
----------------
-
+* Downloads build-a-tron laptop configuration
+* Downloads thoughtbot [laptop][lappy] application
+* thoughtbot laptop script sets up the following (pulled from thoughtbot documentation):
 macOS tools:
-
 * [Homebrew] for managing operating system libraries.
 
-[Homebrew]: http://brew.sh/
-
 Unix tools:
-
 * [Exuberant Ctags] for indexing files for vim tab completion
 * [Git] for version control
 * [OpenSSL] for Transport Layer Security (TLS)
@@ -94,11 +82,7 @@ Testing tools:
 
 * [Qt 5] for headless JavaScript testing via [Capybara Webkit]
 
-[Qt 5]: http://qt-project.org/
-[Capybara Webkit]: https://github.com/thoughtbot/capybara-webkit
-
 Programming languages, package managers, and configuration:
-
 * [Bundler] for managing Ruby libraries
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
 * [Rbenv] for managing versions of Ruby
@@ -106,121 +90,259 @@ Programming languages, package managers, and configuration:
 * [Ruby] stable for writing general-purpose code
 * [Yarn] for managing JavaScript packages
 
-[Bundler]: http://bundler.io/
-[ImageMagick]: http://www.imagemagick.org/
-[Node.js]: http://nodejs.org/
-[NPM]: https://www.npmjs.org/
-[Rbenv]: https://github.com/sstephenson/rbenv
-[Ruby Build]: https://github.com/sstephenson/ruby-build
-[Ruby]: https://www.ruby-lang.org/en/
-[Yarn]: https://yarnpkg.com/en/
-
 Databases:
-
 * [Postgres] for storing relational data
 * [Redis] for storing key-value data
 
+* build-a-tron laptop configuration sets up the following Desktop applications:
+  * Brew Cask Applications
+    * [Google Chrome] Browser
+    * [Blisk] Browser
+    * [Mozilla Firefox] Browser
+    * [Tor] Browser
+    * [Alfred] for application & file launching
+    * [Dropbox] for file storage
+    * [Google Drive] for file storage
+    * [Google Photos Backup] for file storage
+    * [Plex] media server for serving local media over the network
+    * [Evernote] for note taking/resource clipping
+    * [Balsamiq Mockups] for mocking up wireframes
+    * [Noun Project] for icon library
+    * [Skyfonts] for integrating Google Fonts into the system
+    * [Color Snapper] for selecting colors
+    * [Adobe Illustrator] for the AI files
+    * [Sketch] for designing layouts
+    * [iTerm] Terminal alternative
+    * [MacVim] Vim client for mac
+    * [CodeKit] Sass, Less, Jade, Haml, Javascript compiler
+    * [VSCode] for editing code
+    * [Atom] for editing code
+    * [Postman] for making API Requests
+    * [Paw] for making API Requests
+    * [Github Desktop] for a nice GUI for git
+    * [MAMP] for quickly running sites on apache
+    * [Kitematic] GUI for running docker containers
+    * [Transmit] for FTP/SFTP
+    * [VMWare Fusion] for running virtual machines
+    * [Virtual Box] for running virtual machines
+    * [Source Tree] for another nice GUI for git
+    * [Dash] for local code documentation
+    * [Java] for the occasional app that needs it
+    * [Elasticsearch] for running elasticsearch of all things
+    * [Mou] Native Mac markdown editor
+    * [NVM] Node Version Manager
+    * [Postgres App] for a simple standalone Postgres server
+    * [Postico] for a simple postgres GUI
+    * [Navicat For SQLite] for a SQLite GUI
+    * [Navicat For Postgresql] for another postgres GUI
+    * [Slack] for chatting with friends, co-workers & clients
+    * [Adium] for jabber chat
+    * [Google Hangouts] for hanging out with Google
+    * [Skype] for using the Kleenex of video chat
+    * [Join Me] for adhoc meetings and troubleshooting sessions
+    * [Ghost App] for desktop administration & writing on the Ghost publishing platform
+    * [Pocketcasts] for listing to podcasts
+    * [Spotify] for jamming to music
+    * [Silverlight] for watching Netflix
+    * [Flash Player] because it won't die
+    * [Flux] for turning down the blue light
+    * [Kindle] for reading Kindle books
+    * [GoPro Studio] for updating my GoPro
+    * [Clipgrab] for grabbing video clips
+    * [VLC] for viewing almost any video format
+    * [VLC Streamer] for streaming almost any video format
+    * [Audio Hi-Jack] for recording/routing internal audio
+    * [Loopback] for creating virtual internal I/O audio interfaces
+    * [Chrome Remote Desktop Host]: for remoting into workstations logged into chrome
+    * [Hazel] for automating & keeping my workstation clean
+    * [iStat Menus] for keeping an eye on workstation resources
+    * [Fantastical] for quick viewing/scheduling meetings/appointments
+    * [CrashPlan] for keeping my data backed up
+    * [Duet] for having the occasional iPad screen while traveling
+    * [Resolutionator] for quickly switching screen resolutions
+    * [Drobo Dashboard] for managing my Drobo
+    * [Carbon Copy Cloner] for duping the occasional directory/disk
+    * [Super Duper] for duping the occasional disk
+    * [Handbrake] for converting video into something usable
+    * [Transmission] for downloading linux distributions & other large files
+    * [Google Earth] for looking for places to travel
+    * [The Unarchiver] for unziping most compressed files
+    * [Screenflow] for recording my screen
+    * [GPG] for keeping prying eyes from reading what they shouldn't
+    * [LastPass] for managing passwords
+    * [Tunnel Bear] for OpenVPN privacy on public networks
+    * [Veracrypt] for encrypting drives
+    * [Tripmode] for managing network traffic while tethered to mobile devices
+  
+  * Mac App Store Applications:
+    * [Day One Classic] for note/taking & journaling.
+    * [Blackmagic Disk Speed Test] for testing the read/write speed of disks
+    * [Fantastical] for managing my calendar
+    * [iHex] for viewing file contents in hex
+    * [CloudApp] for screenshots & filesharing
+    * [Forecast Bar] for answering the most important question: Is it nice outsite?
+    * [Noizio] for providing ambient sound that is great for coding
+    * [Better Rename 9] for batch file renaming
+    * [Magnet] for managing windows on your machine
+    * [Video2GIF] for converting video to the most important file format for social..GIF!
+    * [The Unarchiver] for unzipping a variety of formats
+    * [Pocket] for saving articles for reading later
+    * [TweetDeck] for keeping a close eye on the Twitterverse
+    * [Twitter] for a simpler view of the Twitterverse
+    * [WiFi Explorer] for seeing all the WiFi in the area
+    * [Byword] for simple clean Markdown editing
+    * [Pages] for making pretty "Word" documents
+    * [Helium] for watching YouTube videos all the time
+    * [Tunesify] for converting audio files to various formats
+    * [Audiobook Builder]: for cutting/editing and publishing audio books
+    * [PageLayers] for clipping websites and creating Photoshop layouts
+    * [Bear] for clipping articles and taking notes. More simple thatn Evernote
+    * [FocusList] for clipping articles and taking notes. More simple thatn Evernote
+    * [LastPass App] for managing passwords
+    * [YubiKey Personalization Tool] for personalizing Yubikeys
+    * [Paws For Trello] for having a desktop client for Trello
+  
+  * Specialized Software:
+    * If secure storage USB key is mounted, copy specialized applications, keys & additional software licenses
+* Clone & install thoughtbot dotfiles repo
+* Clone & install personal dotfiles from repo & configures them to be used
+* Removes thoughtbot mac file
+
+
+
+[Bundler]: http://bundler.io/
+[Exuberant Ctags]: http://ctags.sourceforge.net/
+[Foreman]: https://github.com/ddollar/foreman
+[hub]: http://hub.github.com/
+[Heroku Toolbelt]: https://toolbelt.heroku.com/
+[Homebrew]: http://brew.sh/
+[ImageMagick]: http://www.imagemagick.org/
+[Node.js]: http://nodejs.org/
+[NPM]: https://www.npmjs.org/
 [Postgres]: http://www.postgresql.org/
+[Qt 5]: http://qt-project.org/
+[Git]: https://git-scm.com
+[Hub]: http://hub.github.com/
+[Heroku Toolbelt]: https://toolbelt.heroku.com/
+[Parity]: https://github.com/thoughtbot/parity/
+[Rbenv]: https://github.com/sstephenson/rbenv
+[Yarn]: https://yarnpkg.com/en/
+[RCM]: https://github.com/thoughtbot/rcm
 [Redis]: http://redis.io/
+[Ruby Build]: https://github.com/sstephenson/ruby-build
+[Ruby]: https://www.ruby-lang.org/en
+[Capybara Webkit]: https://github.com/thoughtbot/capybara-webki
+[The Silver Searcher]: https://github.com/ggreer/the_silver_searcher
+[Tmux]: http://tmux.sourceforge.net/
+[OpenSSL]: https://www.openssl.org/
+[RCM]: https://github.com/thoughtbot/rcm
+[Watchman]: https://facebook.github.io/watchman/
+[Zsh]: http://www.zsh.org/
+[Google Chrome]: https://www.google.com/chrome/
+[Blisk]: https://blisk.io/
+[Mozilla Firefox]: https://www.mozilla.org/en-US/firefox/new/
+[Tor]: https://www.torproject.org/projects/torbrowser.html
+[Alfred]: https://www.alfredapp.com/
+[Dropbox]: http://dropbox.com/
+[Google Drive]: http://drive.google.com/
+[Google Photos Backup]: http://photos.google.com
+[Plex]: https://www.plex.tv/
+[Evernote]: http://www.evernote.com
+[Balsamiq Mockups]: https://balsamiq.com/products/mockups/
+[Noun Project]: https://thenounproject.com/
+[Skyfonts]: http://skyfonts.com/
+[Color Snapper]: http://colorsnapper.com/
+[Adobe Illustrator]: http://www.adobe.com/products/illustrator.html
+[Sketch]: https://www.sketchapp.com/
+[iTerm]: https://www.iterm2.com/
+[MacVim]: https://github.com/b4winckler/macvim/releases
+[CodeKit]: https://incident57.com/codekit/
+[VSCode]: https://code.visualstudio.com/
+[Atom]: http://www.atom.io/
+[Postman]: https://www.getpostman.com/
+[Paw]: https://paw.cloud/
+[Github Desktop]: https://desktop.github.com/
+[MAMP]: https://www.mamp.info/en/
+[Kitematic]: https://kitematic.com/
+[Transmit]: https://panic.com/transmit/
+[VMWare Fusion]: https://www.vmware.com/products/fusion
+[Virtual Box]: https://www.virtualbox.org/wiki/Downloads
+[Source Tree]: https://www.sourcetreeapp.com/
+[Dash]: https://kapeli.com/dash
+[Java]: https://www.java.com/en/download/
+[Elasticsearch]: https://www.elastic.co/
+[Mou]: http://25.io/mou/
+[NVM]: https://github.com/creationix/nvm
+[Postgres App]: http://postgresapp.com/
+[Postico]: https://eggerapps.at/postico/
+[Navicat For SQLite]: http://www.navicat.com/products/navicat-for-sqlite/
+[Navicat For Postgresql]: http://www.navicat.com/products/navicat-for-postgresql/
+[Slack]: https://slack.com/
+[Adium]: https://adium.im/
+[Google Hangouts]: http://hangouts.google.com/
+[Skype]: http://skype.com/
+[Join Me]: http://join.me/
+[Ghost App]: https://ghost.org/downloads/
+[Pocketcasts]: http://www.shiftyjelly.com/pocketcasts/
+[Spotify]: http://www.spotify.com/
+[Silverlight]: https://www.microsoft.com/silverlight/
+[Flash Player]: https://get.adobe.com/flashplayer/
+[Music Manager]: https://play.google.com/music/listen?u=0#/manager/
+[Kindle]: https://itunes.apple.com/us/app/kindle/id405399194?mt=12
+[GoPro Studio]: http://shop.gopro.com/softwareandapp/gopro-studio/GoPro-Studio.html
+[Clipgrab]: https://clipgrab.org/
+[VLC]: http://www.videolan.org/vlc/index.html
+[VLC Streamer]: http://hobbyistsoftware.com/vlcstreamer
+[Chrome Remote Desktop Host]: https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=en
+[Hazel]: https://www.noodlesoft.com/hazel.php
+[iStat Menus]: https://bjango.com/mac/istatmenus/
+[Fantastical]: https://flexibits.com/fantastical
+[CrashPlan]: http://www.code42.com/crashplan/
+[Duet]: http://www.duetdisplay.com/
+[Resolutionator]: http://manytricks.com/resolutionator/
+[Drobo Dashboard]: http://www.drobo.com/
+[Carbon Copy Cloner]: https://bombich.com/
+[Super Duper]: http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
+[Handbrake]: https://handbrake.fr/
+[Transmission]: http://www.transmissionbt.com/
+[Google Earth]: https://www.google.com/earth/
+[The Unarchiver]: http://unarchiver.c3.cx/
+[Screenflow]: http://www.telestream.net/screenflow/overview.htm
+[GPG]: https://gpgtools.org/
+[LastPass]: https://lastpass.com/
+[Tunnel Bear]: https://www.tunnelbear.com/
+[Flux]: https://justgetflux.com/
+[Tripmode]: http://tripmode.ch/
+[Audio Hi-Jack]: https://www.rogueamoeba.com/audiohijack/
+[Loopback]: https://www.rogueamoeba.com/loopback/
+[Veracrypt]: https://veracrypt.codeplex.com/
+[Tunnel Bear]: https://www.tunnelbear.com/
 
-It should take less than 15 minutes to install (depends on your machine).
 
-Customize in `~/.laptop.local`
-------------------------------
 
-Your `~/.laptop.local` is run at the end of the Laptop script.
-Put your customizations there.
-For example:
-
-```sh
-#!/bin/sh
-
-brew bundle --file=- <<EOF
-brew "Caskroom/cask/dockertoolbox"
-brew "go"
-brew "ngrok"
-brew "watch"
-EOF
-
-default_docker_machine() {
-  docker-machine ls | grep -Fq "default"
-}
-
-if ! default_docker_machine; then
-  docker-machine create --driver virtualbox default
-fi
-
-default_docker_machine_running() {
-  default_docker_machine | grep -Fq "Running"
-}
-
-if ! default_docker_machine_running; then
-  docker-machine start default
-fi
-
-fancy_echo "Cleaning up old Homebrew formulae ..."
-brew cleanup
-brew cask cleanup
-
-if [ -r "$HOME/.rcrc" ]; then
-  fancy_echo "Updating dotfiles ..."
-  rcup
-fi
-```
-
-Write your customizations such that they can be run safely more than once.
-See the `mac` script for examples.
-
-Laptop functions such as `fancy_echo` and
-`gem_install_or_update`
-can be used in your `~/.laptop.local`.
-
-See the [wiki](https://github.com/thoughtbot/laptop/wiki)
-for more customization examples.
-
-Contributing
-------------
-
-Edit the `mac` file.
-Document in the `README.md` file.
-Follow shell style guidelines by using [ShellCheck] and [Syntastic].
-
-```sh
-brew install shellcheck
-```
-
-[ShellCheck]: http://www.shellcheck.net/about.html
-[Syntastic]: https://github.com/scrooloose/syntastic
-
-Thank you, [contributors]!
-
-[contributors]: https://github.com/thoughtbot/laptop/graphs/contributors
-
-By participating in this project,
-you agree to abide by the thoughtbot [code of conduct].
-
-[code of conduct]: https://thoughtbot.com/open-source-code-of-conduct
-
-License
--------
-
-Laptop is © 2011-2017 thoughtbot, inc.
-It is free software,
-and may be redistributed under the terms specified in the [LICENSE] file.
-
-[LICENSE]: LICENSE
-
-About thoughtbot
-----------------
-
-![thoughtbot](http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg)
-
-Laptop is maintained and funded by thoughtbot, inc.
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
-
-We are passionate about open source software.
-See [our other projects][community].
-We are [available for hire][hire].
-
-[community]: https://thoughtbot.com/community?utm_source=github
-[hire]: https://thoughtbot.com?utm_source=github
+[Day One Classic]: http://dayoneapp.com/
+[Blackmagic Disk Speed Test]: https://itunes.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12
+[Fantastical]: https://flexibits.com/fantastical
+[iHex]: https://itunes.apple.com/us/app/ihex-hex-editor/id909566003?mt=12
+[CloudApp]: https://itunes.apple.com/us/app/cloudapp-capture-share-gifs-videos-screencasts/id417602904?mt=12
+[Forecast Bar]: https://itunes.apple.com/us/app/forecast-bar-weather-radar-and-alerts/id982710545?mt=12
+[Noizio]: https://itunes.apple.com/us/app/noizio/id928871589?mt=12
+[Better Rename 9]: https://itunes.apple.com/us/app/better-rename-9/id414209656?mt=12
+[Magnet]: https://itunes.apple.com/us/app/magnet/id441258766?mt=12
+[Video2GIF]: https://itunes.apple.com/us/app/video2gif/id672062950?mt=12
+[The Unarchiver]: https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12
+[Pocket]: https://itunes.apple.com/us/app/pocket/id568494494?mt=12
+[TweetDeck]: https://itunes.apple.com/us/app/tweetdeck-by-twitter/id485812721?mt=12
+[Twitter]: https://itunes.apple.com/us/app/twitter/id409789998?mt=12
+[WiFi Explorer]: https://itunes.apple.com/us/app/wifi-explorer/id494803304?mt=12
+[Byword]: https://itunes.apple.com/us/app/byword/id420212497?mt=12
+[Pages]: https://itunes.apple.com/us/app/pages/id409201541?mt=12
+[Helium]: https://itunes.apple.com/us/app/helium/id1054607607?mt=12
+[Tunesify]: https://itunes.apple.com/us/app/tunesify/id412675054?mt=12
+[Audiobook Builder]: https://itunes.apple.com/us/app/audiobook-builder/id406226796?mt=12
+[PageLayers]: https://itunes.apple.com/us/app/page-layers-website-screenshots-with-layers/id437835477?mt=12
+[Bear]: https://itunes.apple.com/us/app/bear-beautiful-writing-app-for-notes-and-prose/id1091189122?mt=12
+[FocusList]: https://itunes.apple.com/us/app/focuslist-focus-timer-and-daily-planner/id1086877679?mt=12
+[LastPass App]: https://itunes.apple.com/us/app/lastpass-password-manager-and-secure-vault/id926036361?mt=12
+[YubiKey Personalization Tool]: https://itunes.apple.com/us/app/yubikey-personalization-tool/id638161122?mt=12
+[Paws For Trello]: https://itunes.apple.com/us/app/paws-for-trello/id1124077199?mt=12
