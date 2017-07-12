@@ -13,15 +13,18 @@ build-a-tron supports the following operating systems:
 
 Install
 ------
-Download & execute prep.local:
+Clone repo to Home directory:
 ```
-curl --remote-name https://raw.githubusercontent.com/veryaustin/build-a-tron/master/prep.local
+git clone https://github.com/veryaustin/build-a-tron.git 
+```
+
+Execute prep.local:
+```
 sh prep.local
 ```
 
 After reboot, download & execute install.local
 ```
-curl --remote-name https://raw.githubusercontent.com/veryaustin/build-a-tron/master/install.local
 sh install.local
 ```
 
