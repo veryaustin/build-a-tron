@@ -81,7 +81,7 @@ brew cask install visual-studio-code
 brew cask install atom
 brew cask install postman
 brew cask install paw
-brew cask install boot2docker
+brew cask install docker
 brew cask install github-desktop
 brew cask install mamp
 brew cask install kitematic
