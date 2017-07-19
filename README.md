@@ -105,8 +105,7 @@ Databases:
     * [Tor] Browser
     * [Alfred] for application & file launching
     * [Dropbox] for file storage
-    * [Google Drive] for file storage
-    * [Google Photos Backup] for file storage
+    * [Google Backup & Sync] for file storage
     * [Plex] media server for serving local media over the network
     * [Evernote] for note taking/resource clipping
     * [Balsamiq Mockups] for mocking up wireframes
@@ -247,8 +246,7 @@ Databases:
 [Tor]: https://www.torproject.org/projects/torbrowser.html
 [Alfred]: https://www.alfredapp.com/
 [Dropbox]: http://dropbox.com/
-[Google Drive]: http://drive.google.com/
-[Google Photos Backup]: http://photos.google.com
+[Google Backup & Sync]: https://www.google.com/drive/download/
 [Plex]: https://www.plex.tv/
 [Evernote]: http://www.evernote.com
 [Balsamiq Mockups]: https://balsamiq.com/products/mockups/
