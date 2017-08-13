@@ -74,6 +74,7 @@ brew cask install adobe-illustrator-cc
 brew cask install sketch
 
 # Development
+brew cask install hyper
 brew cask install iterm2
 brew cask install macvim
 brew cask install codekit

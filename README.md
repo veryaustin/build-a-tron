@@ -114,7 +114,8 @@ Databases:
     * [Color Snapper] for selecting colors
     * [Adobe Illustrator] for the AI files
     * [Sketch] for designing layouts
-    * [iTerm] Terminal alternative
+    * [Hyper] Current Terminal alternative
+    * [iTerm] alternative terminal
     * [MacVim] Vim client for mac
     * [CodeKit] Sass, Less, Jade, Haml, Javascript compiler
     * [VSCode] for editing code
@@ -255,6 +256,7 @@ Databases:
 [Color Snapper]: http://colorsnapper.com/
 [Adobe Illustrator]: http://www.adobe.com/products/illustrator.html
 [Sketch]: https://www.sketchapp.com/
+[Hyper]: https://hyper.is/
 [iTerm]: https://www.iterm2.com/
 [MacVim]: https://github.com/b4winckler/macvim/releases
 [CodeKit]: https://incident57.com/codekit/
