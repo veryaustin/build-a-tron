@@ -114,7 +114,7 @@ Databases:
     * [Color Snapper] for selecting colors
     * [Adobe Illustrator] for the AI files
     * [Sketch] for designing layouts
-    * [Hyper] Current Terminal alternative
+    * [Hyper] as my Terminal alternative
     * [iTerm] alternative terminal
     * [MacVim] Vim client for mac
     * [CodeKit] Sass, Less, Jade, Haml, Javascript compiler
