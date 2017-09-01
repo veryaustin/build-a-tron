@@ -44,6 +44,9 @@ copy_assets "Fonts" "$SECURE_STORAGE/fonts/" "$HOME/Library/Fonts/"
 # //--- Homebrew Installations ---//
 brew cask install java #Required For Elastic Search to be installed
 
+# Install brew-cask-upgrade tap
+brew tap buo/cask-upgrade
+
 brew install elasticsearch
 brew install nvm
 source $(brew --prefix nvm)/nvm.sh
