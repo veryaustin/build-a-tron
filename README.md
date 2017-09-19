@@ -203,7 +203,7 @@ Databases:
     * [FocusList] for clipping articles and taking notes. More simple thatn Evernote
     * [LastPass App] for managing passwords
     * [YubiKey Personalization Tool] for personalizing Yubikeys
-    * [Paws For Trello] for having a desktop client for Trello
+    * [Trello] for having a desktop client for Trello
   
   * Specialized Software:
     * If secure storage USB key is mounted, copy specialized applications, keys & additional software licenses
@@ -348,4 +348,4 @@ Databases:
 [FocusList]: https://itunes.apple.com/us/app/focuslist-focus-timer-and-daily-planner/id1086877679?mt=12
 [LastPass App]: https://itunes.apple.com/us/app/lastpass-password-manager-and-secure-vault/id926036361?mt=12
 [YubiKey Personalization Tool]: https://itunes.apple.com/us/app/yubikey-personalization-tool/id638161122?mt=12
-[Paws For Trello]: https://itunes.apple.com/us/app/paws-for-trello/id1124077199?mt=12
+[Trello]: https://itunes.apple.com/us/app/trello/id1278508951?mt=12
