@@ -160,7 +160,6 @@ Databases:
     * [Hazel] for automating & keeping my workstation clean
     * [iStat Menus] for keeping an eye on workstation resources
     * [Fantastical] for quick viewing/scheduling meetings/appointments
-    * [CrashPlan] for keeping my data backed up
     * [Duet] for having the occasional iPad screen while traveling
     * [Resolutionator] for quickly switching screen resolutions
     * [Drobo Dashboard] for managing my Drobo

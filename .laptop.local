@@ -128,7 +128,6 @@ brew cask install plex-media-server
 brew cask install chrome-remote-desktop-host
 brew cask install hazel
 brew cask install fantastical
-brew cask install crashplan
 brew cask install duet
 brew cask install resolutionator
 brew cask install drobo-dashboard
