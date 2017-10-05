@@ -189,8 +189,7 @@ Databases:
     * [Video2GIF] for converting video to the most important file format for social..GIF!
     * [The Unarchiver] for unzipping a variety of formats
     * [Pocket] for saving articles for reading later
-    * [TweetDeck] for keeping a close eye on the Twitterverse
-    * [Twitter] for a simpler view of the Twitterverse
+    * [Tweetbot] for keeping a close eye on the Twitterverse
     * [WiFi Explorer] for seeing all the WiFi in the area
     * [Byword] for simple clean Markdown editing
     * [Pages] for making pretty "Word" documents
@@ -334,8 +333,7 @@ Databases:
 [Video2GIF]: https://itunes.apple.com/us/app/video2gif/id672062950?mt=12
 [The Unarchiver]: https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12
 [Pocket]: https://itunes.apple.com/us/app/pocket/id568494494?mt=12
-[TweetDeck]: https://itunes.apple.com/us/app/tweetdeck-by-twitter/id485812721?mt=12
-[Twitter]: https://itunes.apple.com/us/app/twitter/id409789998?mt=12
+[Tweetbot]: https://tapbots.com/tweetbot/mac/
 [WiFi Explorer]: https://itunes.apple.com/us/app/wifi-explorer/id494803304?mt=12
 [Byword]: https://itunes.apple.com/us/app/byword/id420212497?mt=12
 [Pages]: https://itunes.apple.com/us/app/pages/id409201541?mt=12
