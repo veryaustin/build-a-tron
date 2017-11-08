@@ -144,6 +144,7 @@ brew cask install flux
 brew cask install tripmode
 brew cask install audio-hijack
 brew cask install loopback
+brew cask install mozaic
 
 # Security
 brew cask install lastpass
@@ -180,7 +181,7 @@ mas install 417602904  # CloudApp
 mas install 982710545  # Forecast Bar
 mas install 928871589  # Noizio
 mas install 414209656  # Better Rename 9
-mas install 441258766  # Magnet
+# mas install 441258766  # Magnet
 mas install 672062950  # Video2GIF
 mas install 425424353  # The Unarchiver
 mas install 568494494  # Pocket

@@ -156,6 +156,7 @@ Databases:
     * [VLC Streamer] for streaming almost any video format
     * [Audio Hi-Jack] for recording/routing internal audio
     * [Loopback] for creating virtual internal I/O audio interfaces
+    * [Mosaic] for managing windows
     * [Chrome Remote Desktop Host]: for remoting into workstations logged into chrome
     * [Hazel] for automating & keeping my workstation clean
     * [iStat Menus] for keeping an eye on workstation resources
@@ -185,7 +186,7 @@ Databases:
     * [Forecast Bar] for answering the most important question: Is it nice outsite?
     * [Noizio] for providing ambient sound that is great for coding
     * [Better Rename 9] for batch file renaming
-    * [Magnet] for managing windows on your machine
+    <!-- * [Magnet] for managing windows on your machine -->
     * [Video2GIF] for converting video to the most important file format for social..GIF!
     * [The Unarchiver] for unzipping a variety of formats
     * [Pocket] for saving articles for reading later
@@ -316,6 +317,7 @@ Databases:
 [Tripmode]: http://tripmode.ch/
 [Audio Hi-Jack]: https://www.rogueamoeba.com/audiohijack/
 [Loopback]: https://www.rogueamoeba.com/loopback/
+[Mosaic]: https://lightpillar.com/mosaic.html
 [Veracrypt]: https://veracrypt.codeplex.com/
 [Tunnel Bear]: https://www.tunnelbear.com/
 
@@ -329,7 +331,7 @@ Databases:
 [Forecast Bar]: https://itunes.apple.com/us/app/forecast-bar-weather-radar-and-alerts/id982710545?mt=12
 [Noizio]: https://itunes.apple.com/us/app/noizio/id928871589?mt=12
 [Better Rename 9]: https://itunes.apple.com/us/app/better-rename-9/id414209656?mt=12
-[Magnet]: https://itunes.apple.com/us/app/magnet/id441258766?mt=12
+<!-- [Magnet]: https://itunes.apple.com/us/app/magnet/id441258766?mt=12 -->
 [Video2GIF]: https://itunes.apple.com/us/app/video2gif/id672062950?mt=12
 [The Unarchiver]: https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12
 [Pocket]: https://itunes.apple.com/us/app/pocket/id568494494?mt=12
