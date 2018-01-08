@@ -119,7 +119,6 @@ Databases:
     * [MacVim] Vim client for mac
     * [CodeKit] Sass, Less, Jade, Haml, Javascript compiler
     * [VSCode] for editing code
-    * [Atom] for editing code
     * [Postman] for making API Requests
     * [Paw] for making API Requests
     * [Github Desktop] for a nice GUI for git
@@ -260,7 +259,6 @@ Databases:
 [MacVim]: https://github.com/b4winckler/macvim/releases
 [CodeKit]: https://incident57.com/codekit/
 [VSCode]: https://code.visualstudio.com/
-[Atom]: http://www.atom.io/
 [Postman]: https://www.getpostman.com/
 [Paw]: https://paw.cloud/
 [Github Desktop]: https://desktop.github.com/

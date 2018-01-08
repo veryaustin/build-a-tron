@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#Got brew?
+#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 # Variables
 SECURE_STORAGE="/Volumes/installer"
 
@@ -55,20 +58,24 @@ source $(brew --prefix nvm)/nvm.sh
 # //--- Brew Cask Installations ---//
 
 # Browsers
+echo "Browsers..."
 brew cask install google-chrome
 brew cask install blisk
 brew cask install firefox
 brew cask install torbrowser
 
 # Productivity
+echo "Productivity..."
 brew cask install alfred
 
 # Storage/Documents
+echo "Storage Management..."
 brew cask install dropbox
 brew cask install google-backup-and-sync
 brew cask install evernote
 
 # Design
+echo "Design Tools..."
 brew cask install balsamiq-mockups
 brew cask install noun-project
 brew cask install skyfonts
@@ -77,12 +84,12 @@ brew cask install adobe-illustrator-cc
 brew cask install sketch
 
 # Development
+echo "Development Tools..."
 brew cask install hyper
 brew cask install iterm2
 brew cask install macvim
 brew cask install codekit
 brew cask install visual-studio-code
-brew cask install atom
 brew cask install postman
 brew cask install paw
 brew cask install docker
@@ -97,12 +104,14 @@ brew cask install dash
 brew cask install mou
 
 # Database
+echo "Database Tools..."
 brew cask install postgres
 brew cask install postico
 brew cask install navicat-for-sqlite
 brew cask install navicat-for-postgresql
 
 # Communication
+echo "Communication..."
 brew cask install slack
 brew cask install adium
 brew cask install google-hangouts
@@ -111,6 +120,7 @@ brew cask install joinme
 brew cask install ghost
 
 # Media/Entertainment
+echo "Media/Entertainment..."
 brew cask install pocketcasts
 brew cask install spotify
 brew cask install silverlight
@@ -125,6 +135,7 @@ brew cask install google-photos-backup
 brew cask install plex-media-server
 
 # Utilities
+echo "Utils..."
 brew cask install chrome-remote-desktop-host
 brew cask install hazel
 brew cask install fantastical
@@ -147,6 +158,7 @@ brew cask install loopback
 brew cask install mozaic
 
 # Security
+echo "Security Tools..."
 brew cask install lastpass
 brew cask install veracrypt
 brew cask install tunnelbear
