@@ -2,34 +2,37 @@ build-a-tron is a script that sets up a stock OS X machine into a development ma
 
 [lappy]: https://github.com/thoughtbot/laptop
 
-Requirements
---------------
+## Requirements
+
 build-a-tron supports the following operating systems:
 
-*  macOS Mavericks (10.9)
-*  macOS Yosemite (10.10)
-*  macOS El Capitan (10.11)
-*  macOS Sierra (10.12)
+* macOS Mavericks (10.9)
+* macOS Yosemite (10.10)
+* macOS El Capitan (10.11)
+* macOS Sierra (10.12)
 
-Install
-------
+## Install
+
 Clone repo to Home directory:
+
 ```
-git clone https://github.com/veryaustin/build-a-tron.git 
+git clone https://github.com/veryaustin/build-a-tron.git
 ```
 
 Execute prep.local:
+
 ```
 sh prep.local
 ```
 
 After reboot, download & execute install.local
+
 ```
 sh install.local
 ```
 
-What Does It Install?
----------------------
+## What Does It Install?
+
 ### prep.local
 
 * Sets ComputerName, LocalHostName & HostName to "Computertron"
@@ -42,10 +45,11 @@ What Does It Install?
 * Downloads build-a-tron laptop configuration
 * Downloads thoughtbot [laptop][lappy] application
 * thoughtbot laptop script sets up the following (pulled from thoughtbot documentation):
-macOS tools:
+  macOS tools:
 * [Homebrew] for managing operating system libraries.
 
 Unix tools:
+
 * [Exuberant Ctags] for indexing files for vim tab completion
 * [Git] for version control
 * [OpenSSL] for Transport Layer Security (TLS)
@@ -55,27 +59,27 @@ Unix tools:
 * [Watchman] for watching for filesystem events
 * [Zsh] as your shell
 
-[Exuberant Ctags]: http://ctags.sourceforge.net/
-[Git]: https://git-scm.com/
-[OpenSSL]: https://www.openssl.org/
-[RCM]: https://github.com/thoughtbot/rcm
-[The Silver Searcher]: https://github.com/ggreer/the_silver_searcher
-[Tmux]: http://tmux.github.io/
-[Watchman]: https://facebook.github.io/watchman/
-[Zsh]: http://www.zsh.org/
+[exuberant ctags]: http://ctags.sourceforge.net/
+[git]: https://git-scm.com/
+[openssl]: https://www.openssl.org/
+[rcm]: https://github.com/thoughtbot/rcm
+[the silver searcher]: https://github.com/ggreer/the_silver_searcher
+[tmux]: http://tmux.github.io/
+[watchman]: https://facebook.github.io/watchman/
+[zsh]: http://www.zsh.org/
 
 Heroku tools:
 
 * [Heroku Toolbelt] and [Parity] for interacting with the Heroku API
 
-[Heroku Toolbelt]: https://toolbelt.heroku.com/
-[Parity]: https://github.com/thoughtbot/parity
+[heroku toolbelt]: https://toolbelt.heroku.com/
+[parity]: https://github.com/thoughtbot/parity
 
 GitHub tools:
 
 * [Hub] for interacting with the GitHub API
 
-[Hub]: http://hub.github.com/
+[hub]: http://hub.github.com/
 
 Image tools:
 
@@ -86,6 +90,7 @@ Testing tools:
 * [Qt 5] for headless JavaScript testing via [Capybara Webkit]
 
 Programming languages, package managers, and configuration:
+
 * [Bundler] for managing Ruby libraries
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
 * [Rbenv] for managing versions of Ruby
@@ -94,14 +99,18 @@ Programming languages, package managers, and configuration:
 * [Yarn] for managing JavaScript packages
 
 Databases:
+
 * [Postgres] for storing relational data
 * [Redis] for storing key-value data
 
 * build-a-tron laptop configuration sets up the following Desktop applications:
+
   * Brew Cask Applications
+
     * [Google Chrome] Browser
     * [Blisk] Browser
     * [Mozilla Firefox] Browser
+    * [Mozilla Firefox Developer Edition] Browser
     * [Tor] Browser
     * [Alfred] for application & file launching
     * [Dropbox] for file storage
@@ -175,8 +184,9 @@ Databases:
     * [Tunnel Bear] for OpenVPN privacy on public networks
     * [Veracrypt] for encrypting drives
     * [Tripmode] for managing network traffic while tethered to mobile devices
-  
+
   * Mac App Store Applications:
+
     * [Day One Classic] for note/taking & journaling.
     * [Blackmagic Disk Speed Test] for testing the read/write speed of disks
     * [Fantastical] for managing my calendar
@@ -185,7 +195,7 @@ Databases:
     * [Forecast Bar] for answering the most important question: Is it nice outsite?
     * [Noizio] for providing ambient sound that is great for coding
     * [Better Rename 9] for batch file renaming
-    <!-- * [Magnet] for managing windows on your machine -->
+      <!-- * [Magnet] for managing windows on your machine -->
     * [Video2GIF] for converting video to the most important file format for social..GIF!
     * [The Unarchiver] for unzipping a variety of formats
     * [Pocket] for saving articles for reading later
@@ -202,147 +212,146 @@ Databases:
     * [LastPass App] for managing passwords
     * [YubiKey Personalization Tool] for personalizing Yubikeys
     * [Trello] for having a desktop client for Trello
-  
+
   * Specialized Software:
     * If secure storage USB key is mounted, copy specialized applications, keys & additional software licenses
+
 * Clone & install thoughtbot dotfiles repo
 * Clone & install personal dotfiles from repo & configures them to be used
 * Removes thoughtbot mac file
 
-
-
-[Bundler]: http://bundler.io/
-[Exuberant Ctags]: http://ctags.sourceforge.net/
-[Foreman]: https://github.com/ddollar/foreman
+[bundler]: http://bundler.io/
+[exuberant ctags]: http://ctags.sourceforge.net/
+[foreman]: https://github.com/ddollar/foreman
 [hub]: http://hub.github.com/
-[Heroku Toolbelt]: https://toolbelt.heroku.com/
-[Homebrew]: http://brew.sh/
-[ImageMagick]: http://www.imagemagick.org/
-[Node.js]: http://nodejs.org/
-[NPM]: https://www.npmjs.org/
-[Postgres]: http://www.postgresql.org/
-[Qt 5]: http://qt-project.org/
-[Git]: https://git-scm.com
-[Hub]: http://hub.github.com/
-[Heroku Toolbelt]: https://toolbelt.heroku.com/
-[Parity]: https://github.com/thoughtbot/parity/
-[Rbenv]: https://github.com/sstephenson/rbenv
-[Yarn]: https://yarnpkg.com/en/
-[RCM]: https://github.com/thoughtbot/rcm
-[Redis]: http://redis.io/
-[Ruby Build]: https://github.com/sstephenson/ruby-build
-[Ruby]: https://www.ruby-lang.org/en
-[Capybara Webkit]: https://github.com/thoughtbot/capybara-webki
-[The Silver Searcher]: https://github.com/ggreer/the_silver_searcher
-[Tmux]: http://tmux.sourceforge.net/
-[OpenSSL]: https://www.openssl.org/
-[RCM]: https://github.com/thoughtbot/rcm
-[Watchman]: https://facebook.github.io/watchman/
-[Zsh]: http://www.zsh.org/
-[Google Chrome]: https://www.google.com/chrome/
-[Blisk]: https://blisk.io/
-[Mozilla Firefox]: https://www.mozilla.org/en-US/firefox/new/
-[Tor]: https://www.torproject.org/projects/torbrowser.html
-[Alfred]: https://www.alfredapp.com/
-[Dropbox]: http://dropbox.com/
-[Google Backup & Sync]: https://www.google.com/drive/download/
-[Plex]: https://www.plex.tv/
-[Evernote]: http://www.evernote.com
-[Balsamiq Mockups]: https://balsamiq.com/products/mockups/
-[Noun Project]: https://thenounproject.com/
-[Skyfonts]: http://skyfonts.com/
-[Color Snapper]: http://colorsnapper.com/
-[Adobe Illustrator]: http://www.adobe.com/products/illustrator.html
-[Sketch]: https://www.sketchapp.com/
-[Hyper]: https://hyper.is/
-[iTerm]: https://www.iterm2.com/
-[MacVim]: https://github.com/b4winckler/macvim/releases
-[CodeKit]: https://incident57.com/codekit/
-[VSCode]: https://code.visualstudio.com/
-[Postman]: https://www.getpostman.com/
-[Paw]: https://paw.cloud/
-[Github Desktop]: https://desktop.github.com/
-[MAMP]: https://www.mamp.info/en/
-[Kitematic]: https://kitematic.com/
-[Transmit]: https://panic.com/transmit/
-[VMWare Fusion]: https://www.vmware.com/products/fusion
-[Virtual Box]: https://www.virtualbox.org/wiki/Downloads
-[Source Tree]: https://www.sourcetreeapp.com/
-[Dash]: https://kapeli.com/dash
-[Java]: https://www.java.com/en/download/
-[Elasticsearch]: https://www.elastic.co/
-[Mou]: http://25.io/mou/
-[NVM]: https://github.com/creationix/nvm
-[Postgres App]: http://postgresapp.com/
-[Postico]: https://eggerapps.at/postico/
-[Navicat For SQLite]: http://www.navicat.com/products/navicat-for-sqlite/
-[Navicat For Postgresql]: http://www.navicat.com/products/navicat-for-postgresql/
-[Slack]: https://slack.com/
-[Adium]: https://adium.im/
-[Google Hangouts]: http://hangouts.google.com/
-[Skype]: http://skype.com/
-[Join Me]: http://join.me/
-[Ghost App]: https://ghost.org/downloads/
-[Pocketcasts]: http://www.shiftyjelly.com/pocketcasts/
-[Spotify]: http://www.spotify.com/
-[Silverlight]: https://www.microsoft.com/silverlight/
-[Flash Player]: https://get.adobe.com/flashplayer/
-[Music Manager]: https://play.google.com/music/listen?u=0#/manager/
-[Kindle]: https://itunes.apple.com/us/app/kindle/id405399194?mt=12
-[GoPro Studio]: http://shop.gopro.com/softwareandapp/gopro-studio/GoPro-Studio.html
-[Clipgrab]: https://clipgrab.org/
-[VLC]: http://www.videolan.org/vlc/index.html
-[VLC Streamer]: http://hobbyistsoftware.com/vlcstreamer
-[Chrome Remote Desktop Host]: https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=en
-[Hazel]: https://www.noodlesoft.com/hazel.php
-[iStat Menus]: https://bjango.com/mac/istatmenus/
-[Fantastical]: https://flexibits.com/fantastical
-[CrashPlan]: http://www.code42.com/crashplan/
-[Duet]: http://www.duetdisplay.com/
-[Resolutionator]: http://manytricks.com/resolutionator/
-[Drobo Dashboard]: http://www.drobo.com/
-[Carbon Copy Cloner]: https://bombich.com/
-[Super Duper]: http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
-[Handbrake]: https://handbrake.fr/
-[Transmission]: http://www.transmissionbt.com/
-[Google Earth]: https://www.google.com/earth/
-[The Unarchiver]: http://unarchiver.c3.cx/
-[Screenflow]: http://www.telestream.net/screenflow/overview.htm
-[GPG]: https://gpgtools.org/
-[LastPass]: https://lastpass.com/
-[Tunnel Bear]: https://www.tunnelbear.com/
-[Flux]: https://justgetflux.com/
-[Tripmode]: http://tripmode.ch/
-[Audio Hi-Jack]: https://www.rogueamoeba.com/audiohijack/
-[Loopback]: https://www.rogueamoeba.com/loopback/
-[Mosaic]: https://lightpillar.com/mosaic.html
-[Veracrypt]: https://veracrypt.codeplex.com/
-[Tunnel Bear]: https://www.tunnelbear.com/
+[heroku toolbelt]: https://toolbelt.heroku.com/
+[homebrew]: http://brew.sh/
+[imagemagick]: http://www.imagemagick.org/
+[node.js]: http://nodejs.org/
+[npm]: https://www.npmjs.org/
+[postgres]: http://www.postgresql.org/
+[qt 5]: http://qt-project.org/
+[git]: https://git-scm.com
+[hub]: http://hub.github.com/
+[heroku toolbelt]: https://toolbelt.heroku.com/
+[parity]: https://github.com/thoughtbot/parity/
+[rbenv]: https://github.com/sstephenson/rbenv
+[yarn]: https://yarnpkg.com/en/
+[rcm]: https://github.com/thoughtbot/rcm
+[redis]: http://redis.io/
+[ruby build]: https://github.com/sstephenson/ruby-build
+[ruby]: https://www.ruby-lang.org/en
+[capybara webkit]: https://github.com/thoughtbot/capybara-webki
+[the silver searcher]: https://github.com/ggreer/the_silver_searcher
+[tmux]: http://tmux.sourceforge.net/
+[openssl]: https://www.openssl.org/
+[rcm]: https://github.com/thoughtbot/rcm
+[watchman]: https://facebook.github.io/watchman/
+[zsh]: http://www.zsh.org/
+[google chrome]: https://www.google.com/chrome/
+[blisk]: https://blisk.io/
+[mozilla firefox]: https://www.mozilla.org/en-US/firefox/new/
+[mozilla firefox developer edition]: https://www.mozilla.org/en-US/firefox/developer/
+[tor]: https://www.torproject.org/projects/torbrowser.html
+[alfred]: https://www.alfredapp.com/
+[dropbox]: http://dropbox.com/
+[google backup & sync]: https://www.google.com/drive/download/
+[plex]: https://www.plex.tv/
+[evernote]: http://www.evernote.com
+[balsamiq mockups]: https://balsamiq.com/products/mockups/
+[noun project]: https://thenounproject.com/
+[skyfonts]: http://skyfonts.com/
+[color snapper]: http://colorsnapper.com/
+[adobe illustrator]: http://www.adobe.com/products/illustrator.html
+[sketch]: https://www.sketchapp.com/
+[hyper]: https://hyper.is/
+[iterm]: https://www.iterm2.com/
+[macvim]: https://github.com/b4winckler/macvim/releases
+[codekit]: https://incident57.com/codekit/
+[vscode]: https://code.visualstudio.com/
+[postman]: https://www.getpostman.com/
+[paw]: https://paw.cloud/
+[github desktop]: https://desktop.github.com/
+[mamp]: https://www.mamp.info/en/
+[kitematic]: https://kitematic.com/
+[transmit]: https://panic.com/transmit/
+[vmware fusion]: https://www.vmware.com/products/fusion
+[virtual box]: https://www.virtualbox.org/wiki/Downloads
+[source tree]: https://www.sourcetreeapp.com/
+[dash]: https://kapeli.com/dash
+[java]: https://www.java.com/en/download/
+[elasticsearch]: https://www.elastic.co/
+[mou]: http://25.io/mou/
+[nvm]: https://github.com/creationix/nvm
+[postgres app]: http://postgresapp.com/
+[postico]: https://eggerapps.at/postico/
+[navicat for sqlite]: http://www.navicat.com/products/navicat-for-sqlite/
+[navicat for postgresql]: http://www.navicat.com/products/navicat-for-postgresql/
+[slack]: https://slack.com/
+[adium]: https://adium.im/
+[google hangouts]: http://hangouts.google.com/
+[skype]: http://skype.com/
+[join me]: http://join.me/
+[ghost app]: https://ghost.org/downloads/
+[pocketcasts]: http://www.shiftyjelly.com/pocketcasts/
+[spotify]: http://www.spotify.com/
+[silverlight]: https://www.microsoft.com/silverlight/
+[flash player]: https://get.adobe.com/flashplayer/
+[music manager]: https://play.google.com/music/listen?u=0#/manager/
+[kindle]: https://itunes.apple.com/us/app/kindle/id405399194?mt=12
+[gopro studio]: http://shop.gopro.com/softwareandapp/gopro-studio/GoPro-Studio.html
+[clipgrab]: https://clipgrab.org/
+[vlc]: http://www.videolan.org/vlc/index.html
+[vlc streamer]: http://hobbyistsoftware.com/vlcstreamer
+[chrome remote desktop host]: https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=en
+[hazel]: https://www.noodlesoft.com/hazel.php
+[istat menus]: https://bjango.com/mac/istatmenus/
+[fantastical]: https://flexibits.com/fantastical
+[crashplan]: http://www.code42.com/crashplan/
+[duet]: http://www.duetdisplay.com/
+[resolutionator]: http://manytricks.com/resolutionator/
+[drobo dashboard]: http://www.drobo.com/
+[carbon copy cloner]: https://bombich.com/
+[super duper]: http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
+[handbrake]: https://handbrake.fr/
+[transmission]: http://www.transmissionbt.com/
+[google earth]: https://www.google.com/earth/
+[the unarchiver]: http://unarchiver.c3.cx/
+[screenflow]: http://www.telestream.net/screenflow/overview.htm
+[gpg]: https://gpgtools.org/
+[lastpass]: https://lastpass.com/
+[tunnel bear]: https://www.tunnelbear.com/
+[flux]: https://justgetflux.com/
+[tripmode]: http://tripmode.ch/
+[audio hi-jack]: https://www.rogueamoeba.com/audiohijack/
+[loopback]: https://www.rogueamoeba.com/loopback/
+[mosaic]: https://lightpillar.com/mosaic.html
+[veracrypt]: https://veracrypt.codeplex.com/
+[tunnel bear]: https://www.tunnelbear.com/
+[day one classic]: http://dayoneapp.com/
+[blackmagic disk speed test]: https://itunes.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12
+[fantastical]: https://flexibits.com/fantastical
+[ihex]: https://itunes.apple.com/us/app/ihex-hex-editor/id909566003?mt=12
+[cloudapp]: https://itunes.apple.com/us/app/cloudapp-capture-share-gifs-videos-screencasts/id417602904?mt=12
+[forecast bar]: https://itunes.apple.com/us/app/forecast-bar-weather-radar-and-alerts/id982710545?mt=12
+[noizio]: https://itunes.apple.com/us/app/noizio/id928871589?mt=12
+[better rename 9]: https://itunes.apple.com/us/app/better-rename-9/id414209656?mt=12
 
-
-
-[Day One Classic]: http://dayoneapp.com/
-[Blackmagic Disk Speed Test]: https://itunes.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12
-[Fantastical]: https://flexibits.com/fantastical
-[iHex]: https://itunes.apple.com/us/app/ihex-hex-editor/id909566003?mt=12
-[CloudApp]: https://itunes.apple.com/us/app/cloudapp-capture-share-gifs-videos-screencasts/id417602904?mt=12
-[Forecast Bar]: https://itunes.apple.com/us/app/forecast-bar-weather-radar-and-alerts/id982710545?mt=12
-[Noizio]: https://itunes.apple.com/us/app/noizio/id928871589?mt=12
-[Better Rename 9]: https://itunes.apple.com/us/app/better-rename-9/id414209656?mt=12
 <!-- [Magnet]: https://itunes.apple.com/us/app/magnet/id441258766?mt=12 -->
-[Video2GIF]: https://itunes.apple.com/us/app/video2gif/id672062950?mt=12
-[The Unarchiver]: https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12
-[Pocket]: https://itunes.apple.com/us/app/pocket/id568494494?mt=12
-[Tweetbot]: https://tapbots.com/tweetbot/mac/
-[WiFi Explorer]: https://itunes.apple.com/us/app/wifi-explorer/id494803304?mt=12
-[Byword]: https://itunes.apple.com/us/app/byword/id420212497?mt=12
-[Pages]: https://itunes.apple.com/us/app/pages/id409201541?mt=12
-[Helium]: https://itunes.apple.com/us/app/helium/id1054607607?mt=12
-[Tunesify]: https://itunes.apple.com/us/app/tunesify/id412675054?mt=12
-[Audiobook Builder]: https://itunes.apple.com/us/app/audiobook-builder/id406226796?mt=12
-[PageLayers]: https://itunes.apple.com/us/app/page-layers-website-screenshots-with-layers/id437835477?mt=12
-[Bear]: https://itunes.apple.com/us/app/bear-beautiful-writing-app-for-notes-and-prose/id1091189122?mt=12
-[FocusList]: https://itunes.apple.com/us/app/focuslist-focus-timer-and-daily-planner/id1086877679?mt=12
-[LastPass App]: https://itunes.apple.com/us/app/lastpass-password-manager-and-secure-vault/id926036361?mt=12
-[YubiKey Personalization Tool]: https://itunes.apple.com/us/app/yubikey-personalization-tool/id638161122?mt=12
-[Trello]: https://itunes.apple.com/us/app/trello/id1278508951?mt=12
+
+[video2gif]: https://itunes.apple.com/us/app/video2gif/id672062950?mt=12
+[the unarchiver]: https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12
+[pocket]: https://itunes.apple.com/us/app/pocket/id568494494?mt=12
+[tweetbot]: https://tapbots.com/tweetbot/mac/
+[wifi explorer]: https://itunes.apple.com/us/app/wifi-explorer/id494803304?mt=12
+[byword]: https://itunes.apple.com/us/app/byword/id420212497?mt=12
+[pages]: https://itunes.apple.com/us/app/pages/id409201541?mt=12
+[helium]: https://itunes.apple.com/us/app/helium/id1054607607?mt=12
+[tunesify]: https://itunes.apple.com/us/app/tunesify/id412675054?mt=12
+[audiobook builder]: https://itunes.apple.com/us/app/audiobook-builder/id406226796?mt=12
+[pagelayers]: https://itunes.apple.com/us/app/page-layers-website-screenshots-with-layers/id437835477?mt=12
+[bear]: https://itunes.apple.com/us/app/bear-beautiful-writing-app-for-notes-and-prose/id1091189122?mt=12
+[focuslist]: https://itunes.apple.com/us/app/focuslist-focus-timer-and-daily-planner/id1086877679?mt=12
+[lastpass app]: https://itunes.apple.com/us/app/lastpass-password-manager-and-secure-vault/id926036361?mt=12
+[yubikey personalization tool]: https://itunes.apple.com/us/app/yubikey-personalization-tool/id638161122?mt=12
+[trello]: https://itunes.apple.com/us/app/trello/id1278508951?mt=12

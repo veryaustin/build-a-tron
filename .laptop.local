@@ -62,7 +62,9 @@ echo "Browsers..."
 brew cask install google-chrome
 brew cask install blisk
 brew cask install firefox
+brew cask install firefox-developer-edition
 brew cask install torbrowser
+
 
 # Productivity
 echo "Productivity..."
