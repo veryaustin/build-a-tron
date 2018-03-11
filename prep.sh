@@ -12,6 +12,9 @@ if [ -d "/Volumes/installer/xcode/" ]; then
 	sudo tar -xvf /Volumes/installer/xcode/xcode.tar -C /Applications/ && xcode-select --install
 fi
 
+# Xcode License Agreement
+sudo xcodebuild -license
+
 # Run Apple Software Update/Apply Them
 sudo softwareupdate -i -a
 

@@ -1,252 +1,196 @@
-build-a-tron is a script that sets up a stock OS X machine into a development machine, as well as installs additional applications I use day to day. Special thanks to thoughtbot for their [laptop][lappy] script that handles the initial installation of the development environment.
-
-[lappy]: https://github.com/thoughtbot/laptop
-
-## Requirements
-
-build-a-tron supports the following operating systems:
-
-* macOS Mavericks (10.9)
-* macOS Yosemite (10.10)
-* macOS El Capitan (10.11)
-* macOS Sierra (10.12)
+build-a-tron is a script that sets up a stock OS X machine into a new development machine, as well as installs additional applications I use day to day.
 
 ## Install
 
-Clone repo to Home directory:
+Clone repo to ~/Home directory:
 
 ```
 git clone https://github.com/veryaustin/build-a-tron.git
 ```
 
-Execute prep.local:
+Execute prep.sh:
 
 ```
-sh prep.local
+sh prep.sh
 ```
 
-After reboot, download & execute install.local
+After reboot, download & execute install.sh
 
 ```
-sh install.local
+sh install.sh
 ```
 
 ## What Does It Install?
 
-### prep.local
+### prep.sh
 
-* Sets ComputerName, LocalHostName & HostName to "Computertron"
+* Sets ComputerName, LocalHostName & HostName to "computertron"
 * Installs Xcode Tools (From Secure External Storage)
+* Props Xcode License Agreement
 * Runs Apple Software Update & applies update
 * Restarts Machine
 
-### install.local
+### install.sh
 
-* Downloads build-a-tron laptop configuration
-* Downloads thoughtbot [laptop][lappy] application
-* thoughtbot laptop script sets up the following (pulled from thoughtbot documentation):
-  macOS tools:
-* [Homebrew] for managing operating system libraries.
+* Copies SSH Keys, GPG Keys, Optional Applications, User/Application Preferences, Fonts, & Licenses from Secure External Storage if available
+* Downloads dotfiles
+* Install Oh-My-ZSH
+* Install [Homebrew] for managing operating system libraries
+* Install [LastPass-CLI] for programatic credential lookup
+* Install [Mas] for programatic install of Mac App Store software
+* Authenticates agains LastPass & Mac App store
+* Installs applications in Brewfile
+* Self deletes install.sh
+
+### Brewfile
 
 Unix tools:
 
 * [Exuberant Ctags] for indexing files for vim tab completion
 * [Git] for version control
 * [OpenSSL] for Transport Layer Security (TLS)
-* [RCM] for managing company and personal dotfiles
-* [The Silver Searcher] for finding things in files
-* [Tmux] for saving project state and switching between projects
-* [Watchman] for watching for filesystem events
+* [VIM] for document editing in the command line
 * [Zsh] as your shell
-
-[exuberant ctags]: http://ctags.sourceforge.net/
-[git]: https://git-scm.com/
-[openssl]: https://www.openssl.org/
-[rcm]: https://github.com/thoughtbot/rcm
-[the silver searcher]: https://github.com/ggreer/the_silver_searcher
-[tmux]: http://tmux.github.io/
-[watchman]: https://facebook.github.io/watchman/
-[zsh]: http://www.zsh.org/
 
 Heroku tools:
 
 * [Heroku Toolbelt] and [Parity] for interacting with the Heroku API
 
-[heroku toolbelt]: https://toolbelt.heroku.com/
-[parity]: https://github.com/thoughtbot/parity
-
-GitHub tools:
-
-* [Hub] for interacting with the GitHub API
-
-[hub]: http://hub.github.com/
-
 Image tools:
 
 * [ImageMagick] for cropping and resizing images
 
-Testing tools:
-
-* [Qt 5] for headless JavaScript testing via [Capybara Webkit]
-
 Programming languages, package managers, and configuration:
 
-* [Bundler] for managing Ruby libraries
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
-* [Rbenv] for managing versions of Ruby
-* [Ruby Build] for installing Rubies
-* [Ruby] stable for writing general-purpose code
+* [NVM] for managing and installing multiple versions of Node
 * [Yarn] for managing JavaScript packages
+* [Java] required for Android Dev
+* [Elasticsearch] for building search engin with an HTTP web interface and schema-free JSON documents
 
 Databases:
 
 * [Postgres] for storing relational data
 * [Redis] for storing key-value data
 
-* build-a-tron laptop configuration sets up the following Desktop applications:
+Brew Cask Applications:
 
-  * Brew Cask Applications
+* [Google Chrome] Browser
+* [Blisk] Browser
+* [Mozilla Firefox] Browser
+* [Mozilla Firefox Developer Edition] Browser
+* [Tor] Browser
+* [Alfred] for application & file launching
+* [Dropbox] for file storage
+* [Google Backup & Sync] for file storage
+* [Plex] media server for serving local media over the network
+* [Evernote] for note taking/resource clipping
+* [Balsamiq Mockups] for mocking up wireframes
+* [Noun Project] for icon library
+* [Skyfonts] for integrating Google Fonts into the system
+* [Color Snapper] for selecting colors
+* [Adobe Illustrator] for the AI files
+* [Sketch] for designing layouts
+* [Hyper] as my current Terminal alternative
+* [iTerm] alternative terminal
+* [MacVim] Vim client for mac
+* [CodeKit] Sass, Less, Jade, Haml, Javascript compiler
+* [VSCode] for editing code
+* [Postman] for making API Requests
+* [Paw] for making API Requests
+* [Github Desktop] for a nice GUI for git
+* [MAMP] for quickly running sites on apache
+* [Kitematic] GUI for running docker containers
+* [Transmit] for FTP/SFTP
+* [VMWare Fusion] for running virtual machines
+* [Virtual Box] for running virtual machines
+* [Source Tree] for another nice GUI for git
+* [Dash] for local code documentation
+* [Mou] Native Mac markdown editor
+* [Postico] for a simple postgres GUI
+* [Navicat For SQLite] for a SQLite GUI
+* [Navicat For Postgresql] for another postgres GUI
+* [Slack] for chatting with friends, co-workers & clients
+* [Adium] for jabber chat
+* [Google Hangouts] for hanging out with Google
+* [Skype] for using the Kleenex of video chat
+* [Join Me] for adhoc meetings and troubleshooting sessions
+* [Ghost App] for desktop administration & writing on the Ghost publishing platform
+* [Pocketcasts] for listing to podcasts
+* [Spotify] for jamming to music
+* [Silverlight] for watching Netflix
+* [Flash Player] because it won't die
+* [Flux] for turning down the blue light
+* [Kindle] for reading Kindle books
+* [GoPro Studio] for updating my GoPro
+* [Clipgrab] for grabbing video clips
+* [VLC] for viewing almost any video format
+* [VLC Streamer] for streaming almost any video format
+* [Audio Hi-Jack] for recording/routing internal audio
+* [Loopback] for creating virtual internal I/O audio interfaces
+* [Mosaic] for managing windows
+* [Chrome Remote Desktop Host]: for remoting into workstations logged into chrome
+* [Hazel] for automating & keeping my workstation clean
+* [iStat Menus] for keeping an eye on workstation resources
+* [Fantastical] for quick viewing/scheduling meetings/appointments
+* [Duet] for having the occasional iPad screen while traveling
+* [Resolutionator] for quickly switching screen resolutions
+* [Drobo Dashboard] for managing my Drobo
+* [Carbon Copy Cloner] for duping the occasional directory/disk
+* [Super Duper] for duping the occasional disk
+* [Handbrake] for converting video into something usable
+* [Transmission] for downloading linux distributions & other large files
+* [Google Earth] for looking for places to travel
+* [The Unarchiver] for unziping most compressed files
+* [Screenflow] for recording my screen
+* [GPG] for keeping prying eyes from reading what they shouldn't
+* [LastPass] for managing passwords
+* [Tunnel Bear] for OpenVPN privacy on public networks
+* [Veracrypt] for encrypting drives
+* [Tripmode] for managing network traffic while tethered to mobile devices
 
-    * [Google Chrome] Browser
-    * [Blisk] Browser
-    * [Mozilla Firefox] Browser
-    * [Mozilla Firefox Developer Edition] Browser
-    * [Tor] Browser
-    * [Alfred] for application & file launching
-    * [Dropbox] for file storage
-    * [Google Backup & Sync] for file storage
-    * [Plex] media server for serving local media over the network
-    * [Evernote] for note taking/resource clipping
-    * [Balsamiq Mockups] for mocking up wireframes
-    * [Noun Project] for icon library
-    * [Skyfonts] for integrating Google Fonts into the system
-    * [Color Snapper] for selecting colors
-    * [Adobe Illustrator] for the AI files
-    * [Sketch] for designing layouts
-    * [Hyper] as my current Terminal alternative
-    * [iTerm] alternative terminal
-    * [MacVim] Vim client for mac
-    * [CodeKit] Sass, Less, Jade, Haml, Javascript compiler
-    * [VSCode] for editing code
-    * [Postman] for making API Requests
-    * [Paw] for making API Requests
-    * [Github Desktop] for a nice GUI for git
-    * [MAMP] for quickly running sites on apache
-    * [Kitematic] GUI for running docker containers
-    * [Transmit] for FTP/SFTP
-    * [VMWare Fusion] for running virtual machines
-    * [Virtual Box] for running virtual machines
-    * [Source Tree] for another nice GUI for git
-    * [Dash] for local code documentation
-    * [Java] for the occasional app that needs it
-    * [Elasticsearch] for running elasticsearch of all things
-    * [Mou] Native Mac markdown editor
-    * [NVM] Node Version Manager
-    * [Postgres App] for a simple standalone Postgres server
-    * [Postico] for a simple postgres GUI
-    * [Navicat For SQLite] for a SQLite GUI
-    * [Navicat For Postgresql] for another postgres GUI
-    * [Slack] for chatting with friends, co-workers & clients
-    * [Adium] for jabber chat
-    * [Google Hangouts] for hanging out with Google
-    * [Skype] for using the Kleenex of video chat
-    * [Join Me] for adhoc meetings and troubleshooting sessions
-    * [Ghost App] for desktop administration & writing on the Ghost publishing platform
-    * [Pocketcasts] for listing to podcasts
-    * [Spotify] for jamming to music
-    * [Silverlight] for watching Netflix
-    * [Flash Player] because it won't die
-    * [Flux] for turning down the blue light
-    * [Kindle] for reading Kindle books
-    * [GoPro Studio] for updating my GoPro
-    * [Clipgrab] for grabbing video clips
-    * [VLC] for viewing almost any video format
-    * [VLC Streamer] for streaming almost any video format
-    * [Audio Hi-Jack] for recording/routing internal audio
-    * [Loopback] for creating virtual internal I/O audio interfaces
-    * [Mosaic] for managing windows
-    * [Chrome Remote Desktop Host]: for remoting into workstations logged into chrome
-    * [Hazel] for automating & keeping my workstation clean
-    * [iStat Menus] for keeping an eye on workstation resources
-    * [Fantastical] for quick viewing/scheduling meetings/appointments
-    * [Duet] for having the occasional iPad screen while traveling
-    * [Resolutionator] for quickly switching screen resolutions
-    * [Drobo Dashboard] for managing my Drobo
-    * [Carbon Copy Cloner] for duping the occasional directory/disk
-    * [Super Duper] for duping the occasional disk
-    * [Handbrake] for converting video into something usable
-    * [Transmission] for downloading linux distributions & other large files
-    * [Google Earth] for looking for places to travel
-    * [The Unarchiver] for unziping most compressed files
-    * [Screenflow] for recording my screen
-    * [GPG] for keeping prying eyes from reading what they shouldn't
-    * [LastPass] for managing passwords
-    * [Tunnel Bear] for OpenVPN privacy on public networks
-    * [Veracrypt] for encrypting drives
-    * [Tripmode] for managing network traffic while tethered to mobile devices
+Mac App Store Applications:
 
-  * Mac App Store Applications:
+* [Day One Classic] for note/taking & journaling.
+* [Blackmagic Disk Speed Test] for testing the read/write speed of disks
+* [Fantastical] for managing my calendar
+* [iHex] for viewing file contents in hex
+* [CloudApp] for screenshots & filesharing
+* [Forecast Bar] for answering the most important question: Is it nice outsite?
+* [Noizio] for providing ambient sound that is great for coding
+* [Better Rename 9] for batch file renaming
+  <!-- * [Magnet] for managing windows on your machine -->
+* [Video2GIF] for converting video to the most important file format for social..GIF!
+* [The Unarchiver] for unzipping a variety of formats
+* [Pocket] for saving articles for reading later
+* [Tweetbot] for keeping a close eye on the Twitterverse
+* [WiFi Explorer] for seeing all the WiFi in the area
+* [Byword] for simple clean Markdown editing
+* [Pages] for making pretty "Word" documents
+* [Helium] for watching YouTube videos all the time
+* [Tunesify] for converting audio files to various formats
+* [Audiobook Builder]: for cutting/editing and publishing audio books
+* [PageLayers] for clipping websites and creating Photoshop layouts
+* [Bear] for clipping articles and taking notes. More simple thatn Evernote
+* [FocusList] for clipping articles and taking notes. More simple thatn Evernote
+* [LastPass App] for managing passwords
+* [YubiKey Personalization Tool] for personalizing Yubikeys
+* [Trello] for having a desktop client for Trello
 
-    * [Day One Classic] for note/taking & journaling.
-    * [Blackmagic Disk Speed Test] for testing the read/write speed of disks
-    * [Fantastical] for managing my calendar
-    * [iHex] for viewing file contents in hex
-    * [CloudApp] for screenshots & filesharing
-    * [Forecast Bar] for answering the most important question: Is it nice outsite?
-    * [Noizio] for providing ambient sound that is great for coding
-    * [Better Rename 9] for batch file renaming
-      <!-- * [Magnet] for managing windows on your machine -->
-    * [Video2GIF] for converting video to the most important file format for social..GIF!
-    * [The Unarchiver] for unzipping a variety of formats
-    * [Pocket] for saving articles for reading later
-    * [Tweetbot] for keeping a close eye on the Twitterverse
-    * [WiFi Explorer] for seeing all the WiFi in the area
-    * [Byword] for simple clean Markdown editing
-    * [Pages] for making pretty "Word" documents
-    * [Helium] for watching YouTube videos all the time
-    * [Tunesify] for converting audio files to various formats
-    * [Audiobook Builder]: for cutting/editing and publishing audio books
-    * [PageLayers] for clipping websites and creating Photoshop layouts
-    * [Bear] for clipping articles and taking notes. More simple thatn Evernote
-    * [FocusList] for clipping articles and taking notes. More simple thatn Evernote
-    * [LastPass App] for managing passwords
-    * [YubiKey Personalization Tool] for personalizing Yubikeys
-    * [Trello] for having a desktop client for Trello
-
-  * Specialized Software:
-    * If secure storage USB key is mounted, copy specialized applications, keys & additional software licenses
-
-* Clone & install thoughtbot dotfiles repo
-* Clone & install personal dotfiles from repo & configures them to be used
-* Removes thoughtbot mac file
-
-[bundler]: http://bundler.io/
 [exuberant ctags]: http://ctags.sourceforge.net/
-[foreman]: https://github.com/ddollar/foreman
-[hub]: http://hub.github.com/
 [heroku toolbelt]: https://toolbelt.heroku.com/
 [homebrew]: http://brew.sh/
 [imagemagick]: http://www.imagemagick.org/
 [node.js]: http://nodejs.org/
 [npm]: https://www.npmjs.org/
 [postgres]: http://www.postgresql.org/
-[qt 5]: http://qt-project.org/
 [git]: https://git-scm.com
-[hub]: http://hub.github.com/
+[vim]: https://www.vim.org
 [heroku toolbelt]: https://toolbelt.heroku.com/
-[parity]: https://github.com/thoughtbot/parity/
 [rbenv]: https://github.com/sstephenson/rbenv
 [yarn]: https://yarnpkg.com/en/
-[rcm]: https://github.com/thoughtbot/rcm
 [redis]: http://redis.io/
-[ruby build]: https://github.com/sstephenson/ruby-build
-[ruby]: https://www.ruby-lang.org/en
-[capybara webkit]: https://github.com/thoughtbot/capybara-webki
-[the silver searcher]: https://github.com/ggreer/the_silver_searcher
-[tmux]: http://tmux.sourceforge.net/
 [openssl]: https://www.openssl.org/
-[rcm]: https://github.com/thoughtbot/rcm
-[watchman]: https://facebook.github.io/watchman/
 [zsh]: http://www.zsh.org/
 [google chrome]: https://www.google.com/chrome/
 [blisk]: https://blisk.io/
@@ -320,6 +264,7 @@ Databases:
 [screenflow]: http://www.telestream.net/screenflow/overview.htm
 [gpg]: https://gpgtools.org/
 [lastpass]: https://lastpass.com/
+[lastpass-cli]: https://github.com/lastpass/lastpass-cli
 [tunnel bear]: https://www.tunnelbear.com/
 [flux]: https://justgetflux.com/
 [tripmode]: http://tripmode.ch/
