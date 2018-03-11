@@ -13,7 +13,7 @@ if [ -d "/Volumes/installer/xcode/" ]; then
 fi
 
 # Xcode License Agreement
-sudo xcodebuild -license
+sudo xcodebuild -license accept
 
 # Run Apple Software Update/Apply Them
 sudo softwareupdate -i -a
