@@ -136,28 +136,28 @@ cask "veracrypt"
 cask "tunnelbear"
 
 # Mac App Store Installs
-mas "Day One Classic" id: 422304217
-mas "Blackmagic Disk Speed Test" id: 425264550
-mas "Fantastical" id: 435003921
-mas "iHex" id: 909566003
-mas "CloudApp" id: 417602904
-mas "Forecast Bar" id: 982710545
-mas "Noizio" id: 928871589
-mas "Better Rename 9" id: 414209656
-# mas "Magnet" id: 441258766
-mas "Video2GIF" id: 672062950
-mas "The Unarchiver" id: 425424353
-mas "Pocket" id: 568494494
-mas "Tweetbot" id: 557168941
-mas "WiFi Explorer" id: 494803304
-mas "Byword" id: 420212497
-mas "Pages" id: 409201541
-mas "Helium" id: 1054607607
-mas "Tunesify" id: 412675054
-mas "Audiobook Builder" id: 406226796
-mas "PageLayers" id: 437835477
-mas "Bear" id: 1091189122
-mas "FocusList" id: 1086877679
-mas "LastPass App" id: 926036361
-mas "YubiKey Personalization Tool" id: 638161122
-mas "Trello" id: 1278508951
+mas "Day One Classic", id: 422304217
+mas "Blackmagic Disk Speed Test", id: 425264550
+mas "Fantastical", id: 435003921
+mas "iHex", id: 909566003
+mas "CloudApp", id: 417602904
+mas "Forecast Bar", id: 982710545
+mas "Noizio", id: 928871589
+mas "Better Rename 9", id: 414209656
+# mas "Magnet", id: 441258766
+mas "Video2GIF", id: 672062950
+mas "The Unarchiver", id: 425424353
+mas "Pocket", id: 568494494
+mas "Tweetbot", id: 557168941
+mas "WiFi Explorer", id: 494803304
+mas "Byword", id: 420212497
+mas "Pages", id: 409201541
+mas "Helium", id: 1054607607
+mas "Tunesify", id: 412675054
+mas "Audiobook Builder", id: 406226796
+mas "PageLayers", id: 437835477
+mas "Bear", id: 1091189122
+mas "FocusList", id: 1086877679
+mas "LastPass App", id: 926036361
+mas "YubiKey Personalization Tool", id: 638161122
+mas "Trello", id: 1278508951
