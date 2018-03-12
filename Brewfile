@@ -23,7 +23,7 @@ brew "zsh"
 brew "heroku-toolbelt"
 
 # Image manipulation
-brew "imagemagic"
+brew "imageimagick"
 
 # Languages and package managers
 brew "node"
