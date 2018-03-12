@@ -136,7 +136,7 @@ cask "veracrypt"
 cask "tunnelbear"
 
 # Mac App Store Installs
-mas "Day One Classic, id: 422304217
+mas "Day One Classic" id: 422304217
 mas "Blackmagic Disk Speed Test" id: 425264550
 mas "Fantastical" id: 435003921
 mas "iHex" id: 909566003
