@@ -119,5 +119,6 @@ brew bundle
 # LastPass Sign Out
 lpass logout
 
-# Delete Setup Script
+# Delete Prep And Install Script
+rm $HOME/prep.sh
 rm -- "$0"
