@@ -6,7 +6,6 @@ tap "caskroom/cask"
 tap "caskroom/versions"
 tap "ethereum/ethereum"
 tap "homebrew/bundle"
-tap "homebrew/completions"
 tap "homebrew/php"
 tap "homebrew/services"
 
