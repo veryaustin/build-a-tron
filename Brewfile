@@ -7,9 +7,7 @@ tap "caskroom/versions"
 tap "ethereum/ethereum"
 tap "homebrew/bundle"
 tap "homebrew/completions"
-tap "homebrew/dupes"
 tap "homebrew/php"
-tap "homebrew/science"
 tap "homebrew/services"
 
 # Unix
@@ -29,7 +27,6 @@ brew "imageimagick"
 brew "node"
 brew "nvm"
 brew "yarn"
-brew "java"
 brew "elasticsearch"
 
 # Databases
@@ -78,6 +75,7 @@ cask "vmware-fusion"
 cask "virtualbox"
 cask "sourcetree"
 cask "dash"
+cask "java"
 cask "mou"
 
 # Database

@@ -65,7 +65,6 @@ Programming languages, package managers, and configuration:
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
 * [NVM] for managing and installing multiple versions of Node
 * [Yarn] for managing JavaScript packages
-* [Java] required for Android Dev
 * [Elasticsearch] for building search engin with an HTTP web interface and schema-free JSON documents
 
 Databases:
@@ -107,6 +106,7 @@ Brew Cask Applications:
 * [Source Tree] for another nice GUI for git
 * [Dash] for local code documentation
 * [Mou] Native Mac markdown editor
+* [Java] required for Android Dev
 * [Postico] for a simple postgres GUI
 * [Navicat For SQLite] for a SQLite GUI
 * [Navicat For Postgresql] for another postgres GUI
