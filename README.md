@@ -65,7 +65,6 @@ Programming languages, package managers, and configuration:
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
 * [NVM] for managing and installing multiple versions of Node
 * [Yarn] for managing JavaScript packages
-* [Elasticsearch] for building search engin with an HTTP web interface and schema-free JSON documents
 
 Databases:
 
@@ -224,7 +223,6 @@ Mac App Store Applications:
 [source tree]: https://www.sourcetreeapp.com/
 [dash]: https://kapeli.com/dash
 [java]: https://www.java.com/en/download/
-[elasticsearch]: https://www.elastic.co/
 [mou]: http://25.io/mou/
 [nvm]: https://github.com/creationix/nvm
 [postgres app]: http://postgresapp.com/

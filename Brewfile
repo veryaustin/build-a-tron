@@ -28,7 +28,6 @@ brew "nvm"
 brew "yarn"
 # Java Required For Elastic Search
 cask "java"
-brew "elasticsearch"
 
 # Databases
 brew "postgres", restart_service: true
@@ -40,7 +39,7 @@ brew "redis", restart_service: true
 cask "google-chrome"
 cask "blisk"
 cask "firefox"
-cask "/caskroom/versions/firefox-developer-edition"
+cask "caskroom/versions/firefox-developer-edition"
 cask "torbrowser"
 
 # Productivity
