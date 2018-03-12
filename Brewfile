@@ -20,12 +20,14 @@ brew "zsh"
 brew "heroku-toolbelt"
 
 # Image manipulation
-brew "imageimagick"
+brew "imagemagick"
 
 # Languages and package managers
 brew "node"
 brew "nvm"
 brew "yarn"
+# Java Required For Elastic Search
+cask "java"
 brew "elasticsearch"
 
 # Databases
@@ -74,7 +76,6 @@ cask "vmware-fusion"
 cask "virtualbox"
 cask "sourcetree"
 cask "dash"
-cask "java"
 cask "mou"
 
 # Database
