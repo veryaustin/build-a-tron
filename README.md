@@ -87,7 +87,6 @@ Brew Cask Applications:
 * [Noun Project] for icon library
 * [Skyfonts] for integrating Google Fonts into the system
 * [Color Snapper] for selecting colors
-* [Adobe Illustrator] for the AI files
 * [Sketch] for designing layouts
 * [Hyper] as my current Terminal alternative
 * [iTerm] alternative terminal
@@ -205,7 +204,6 @@ Mac App Store Applications:
 [noun project]: https://thenounproject.com/
 [skyfonts]: http://skyfonts.com/
 [color snapper]: http://colorsnapper.com/
-[adobe illustrator]: http://www.adobe.com/products/illustrator.html
 [sketch]: https://www.sketchapp.com/
 [hyper]: https://hyper.is/
 [iterm]: https://www.iterm2.com/

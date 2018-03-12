@@ -26,8 +26,6 @@ brew "imagemagick"
 brew "node"
 brew "nvm"
 brew "yarn"
-# Java Required For Elastic Search
-cask "java"
 
 # Databases
 brew "postgres", restart_service: true
@@ -55,7 +53,6 @@ cask "balsamiq-mockups"
 cask "noun-project"
 cask "skyfonts"
 cask "colorsnapper"
-cask "adobe-illustrator-cc"
 cask "sketch"
 
 # Development
@@ -67,7 +64,7 @@ cask "visual-studio-code"
 cask "postman"
 cask "paw"
 cask "docker"
-cask "github-desktop"
+cask "github"
 cask "mamp"
 cask "kitematic"
 cask "transmit"
@@ -75,7 +72,7 @@ cask "vmware-fusion"
 cask "virtualbox"
 cask "sourcetree"
 cask "dash"
-cask "mou"
+cask "java"
 
 # Database
 cask "postgres"
