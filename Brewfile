@@ -19,8 +19,13 @@ brew "zsh"
 # Heroku
 brew "heroku-toolbelt"
 
-# Image manipulation
+# Image/Video manipulation
 brew "imagemagick"
+brew handbrake
+brew ffmpeg
+brew mkvtoolnix
+brew mp4v2
+brew mpv
 
 # Languages and package managers
 brew "node"
@@ -30,13 +35,6 @@ brew "yarn"
 # Databases
 brew "postgres", restart_service: true
 brew "redis", restart_service: true
-
-# Video Tools
-brew handbrake
-brew ffmpeg
-brew mkvtoolnix
-brew mp4v2
-brew mpv
 
 
 # Homebrew Cask Installs
