@@ -31,6 +31,13 @@ brew "yarn"
 brew "postgres", restart_service: true
 brew "redis", restart_service: true
 
+# Video Tools
+brew handbrake
+brew ffmpeg
+brew mkvtoolnix
+brew mp4v2
+brew mpv
+
 
 # Homebrew Cask Installs
 # Browsers

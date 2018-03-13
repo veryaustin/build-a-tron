@@ -56,9 +56,13 @@ Heroku tools:
 
 * [Heroku Toolbelt] and [Parity] for interacting with the Heroku API
 
-Image tools:
+Image/Video Tools:
 
 * [ImageMagick] for cropping and resizing images
+* [Handbrake CLI] for converting video via CLI
+* [ffmpeg] cross platform video conversion
+* [mkvtoolnix] matroska tools
+* [mp4v2] mp4 tools
 
 Programming languages, package managers, and configuration:
 
@@ -179,6 +183,10 @@ Mac App Store Applications:
 [heroku toolbelt]: https://toolbelt.heroku.com/
 [homebrew]: http://brew.sh/
 [imagemagick]: http://www.imagemagick.org/
+[handbrake cli]: https://handbrake.fr/docs/en/latest/cli/cli-options.html
+[ffmpeg]: https://www.ffmpeg.org/
+[mkvtoolnix]: https://mkvtoolnix.download/
+[mp4v2]: https://github.com/pcwalton/mp4v2
 [node.js]: http://nodejs.org/
 [npm]: https://www.npmjs.org/
 [postgres]: http://www.postgresql.org/
