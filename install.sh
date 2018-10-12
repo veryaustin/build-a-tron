@@ -97,27 +97,34 @@ fi
 echo "Updated Homebrew..."
 brew update
 
-# Install LastPass CLI/Mas for Command Line App Installs
-brew install lastpass-cli
+# Install 1Password CLI/Mas for Command Line App Installs
+brew install jq
+brew install 1password-cli
 brew install mas
 
-#  LastPass Sign In
-echo -n "Enter your LastPass username and press [ENTER]"
-read LastPassUsername
-lpass login "$LastPassUsername"
+# 1Password Sign In
+echo -n "Enter your 1Password email address and press [ENTER]: "
+
+read OnePassUsername
+OnePassDomain="my.1password.com"
+eval $(op signin "$OnePassDomain" "$OnePassUsername")
 
 # Get App Store Username & Password
-IcloudUsername="$(lpass show iCloud --username)"
-IcloudPassword="$(lpass show iCloud --password)"
+appStoreUsername=$(op get item iCloud | jq '.details.fields[] | select(.designation=="username").value')
+appStorePassword=$(op get item iCloud | jq '.details.fields[] | select(.designation=="password").value')
+
+echo $appStoreUsername
+echo $appStorePassword
 
 # Sign Into App Store
-mas signin $IcloudUsername $IcloudPassword
+# FIX: Mas signin is broken as of Hi Sierra. See https://github.com/mas-cli/mas/issues/164
+mas signin $appStoreUsername $appStorePassword
 
 # Install Brewfile
 brew bundle
 
-# LastPass Sign Out
-lpass logout
+# 1Password Sign Out
+op signout
 
 # Delete Prep And Install Script
 rm $HOME/prep.sh
