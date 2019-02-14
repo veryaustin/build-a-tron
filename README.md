@@ -88,7 +88,6 @@ Brew Cask Applications:
 * [Google Backup & Sync] for file storage
 * [Plex] media server for serving local media over the network
 * [Balsamiq Mockups] for mocking up wireframes
-* [Noun Project] for icon library
 * [Skyfonts] for integrating Google Fonts into the system
 * [Color Snapper] for selecting colors
 * [Sketch] for designing layouts
@@ -115,20 +114,17 @@ Brew Cask Applications:
 * [Navicat For Postgresql] for another postgres GUI
 * [Navicat For SQLite] for a SQLite GUI
 * [Slack] for chatting with friends, co-workers & clients
-* [Google Hangouts] for hanging out with Google
 * [Skype] for using the Kleenex of video chat
-* [Ghost App] for desktop administration & writing on the Ghost publishing platform
 * [Pocketcasts] for listing to podcasts
 * [Spotify] for jamming to music
-* [Silverlight] for watching Netflix
 * [Flash Player] because it won't die
-* [Kindle] for reading Kindle books
 * [GoPro Studio] for updating my GoPro
 * [Clipgrab] for grabbing video clips
 * [VLC] for viewing almost any video format
 * [VLC Streamer] for streaming almost any video format
 * [Audio Hi-Jack] for recording/routing internal audio
 * [Loopback] for creating virtual internal I/O audio interfaces
+* [Freedom] for getting focus in a distracted digital world. Focus!
 * [Chrome Remote Desktop Host]: for remoting into workstations logged into chrome
 * [iStat Menus] for keeping an eye on workstation resources
 * [Crashplan] for backup. Better to be safe:)
@@ -139,11 +135,11 @@ Brew Cask Applications:
 * [Super Duper] for duping the occasional disk
 * [Handbrake] for converting video into something usable
 * [Transmission] for downloading linux distributions & other large files
-* [Google Earth] for looking for places to travel
 * [Screenflow] for recording my screen
 * [GPG] for keeping prying eyes from reading what they shouldn't
 * [1Password] for managing passwords
 * [1Password CLI] for accessing 1Password via CLI
+* [Authy] for two-factor authentication
 * [Tunnel Bear] for OpenVPN privacy on public networks
 * [Veracrypt] for encrypting drives
 * [Tripmode] for managing network traffic while tethered to mobile devices
@@ -165,9 +161,7 @@ Mac App Store Applications:
 * [WiFi Explorer] for seeing all the WiFi in the area
 * [Byword] for simple clean Markdown editing
 * [Pages] for making pretty "Word" documents
-* [Helium] for watching YouTube videos all the time
 * [Tunesify] for converting audio files to various formats
-* [Audiobook Builder]: for cutting/editing and publishing audio books
 * [PageLayers] for clipping websites and creating Photoshop layouts
 * [Bear] for clipping articles and taking notes. More simple thatn Evernote
 * [YubiKey Personalization Tool] for personalizing Yubikeys
@@ -192,7 +186,6 @@ Mac App Store Applications:
 [redis]: http://redis.io/
 [openssl]: https://www.openssl.org/
 [zsh]: http://www.zsh.org/
-
 [nvm]: https://github.com/creationix/nvm
 
 
@@ -207,7 +200,6 @@ Mac App Store Applications:
 [google backup & sync]: https://www.google.com/drive/download/
 [plex]: https://www.plex.tv/
 [balsamiq mockups]: https://balsamiq.com/products/mockups/
-[noun project]: https://thenounproject.com/
 [skyfonts]: http://skyfonts.com/
 [color snapper]: http://colorsnapper.com/
 [sketch]: https://www.sketchapp.com/
@@ -234,20 +226,17 @@ Mac App Store Applications:
 [navicat for postgresql]: http://www.navicat.com/products/navicat-for-postgresql/
 [navicat for sqlite]: http://www.navicat.com/products/navicat-for-sqlite/
 [slack]: https://slack.com/
-[google hangouts]: http://hangouts.google.com/
 [skype]: http://skype.com/
-[ghost app]: https://ghost.org/downloads/
 [pocketcasts]: http://www.shiftyjelly.com/pocketcasts/
 [spotify]: http://www.spotify.com/
-[silverlight]: https://www.microsoft.com/silverlight/
 [flash player]: https://get.adobe.com/flashplayer/
-[kindle]: https://itunes.apple.com/us/app/kindle/id405399194?mt=12
 [gopro studio]: http://shop.gopro.com/softwareandapp/gopro-studio/GoPro-Studio.html
 [clipgrab]: https://clipgrab.org/
 [vlc]: http://www.videolan.org/vlc/index.html
 [vlc streamer]: http://hobbyistsoftware.com/vlcstreamer
 [audio hi-jack]: https://www.rogueamoeba.com/audiohijack/
 [loopback]: https://www.rogueamoeba.com/loopback/
+[freedom]: https://http://freedom.to
 [chrome remote desktop host]: https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=en
 [istat menus]: https://bjango.com/mac/istatmenus/
 [crashplan]: http://www.code42.com/crashplan/
@@ -258,11 +247,11 @@ Mac App Store Applications:
 [super duper]: http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
 [handbrake]: https://handbrake.fr/
 [transmission]: http://www.transmissionbt.com/
-[google earth]: https://www.google.com/earth/
 [screenflow]: http://www.telestream.net/screenflow/overview.htm
 [gpg]: https://gpgtools.org/
 [1password]: https://1password.com/
 [1password-cli]: https://support.1password.com/command-line/
+[Authy]: https://authy.com
 [tunnel bear]: https://www.tunnelbear.com/
 [tripmode]: http://tripmode.ch/
 [veracrypt]: https://veracrypt.codeplex.com/
@@ -282,9 +271,7 @@ Mac App Store Applications:
 [wifi explorer]: https://itunes.apple.com/us/app/wifi-explorer/id494803304?mt=12
 [byword]: https://itunes.apple.com/us/app/byword/id420212497?mt=12
 [pages]: https://itunes.apple.com/us/app/pages/id409201541?mt=12
-[helium]: https://itunes.apple.com/us/app/helium/id1054607607?mt=12
 [tunesify]: https://itunes.apple.com/us/app/tunesify/id412675054?mt=12
-[audiobook builder]: https://itunes.apple.com/us/app/audiobook-builder/id406226796?mt=12
 [pagelayers]: https://itunes.apple.com/us/app/page-layers-website-screenshots-with-layers/id437835477?mt=12
 [bear]: https://itunes.apple.com/us/app/bear-beautiful-writing-app-for-notes-and-prose/id1091189122?mt=12
 [yubikey personalization tool]: https://itunes.apple.com/us/app/yubikey-personalization-tool/id638161122?mt=12

@@ -52,10 +52,10 @@ cask "alfred"
 # Storage/Documents
 cask "dropbox"
 cask "google-backup-and-sync"
+cask "code42-crashplan"
 
 # Design
 cask "balsamiq-mockups"
-cask "noun-project"
 cask "skyfonts"
 cask "colorsnapper"
 cask "sketch"
@@ -88,21 +88,16 @@ cask "navicat-for-postgresql"
 
 # Communication
 cask "slack"
-cask "google-hangouts"
 cask "skype"
-cask "ghost"
 
 # Media/Entertainment
 cask "pocketcasts"
 cask "spotify"
-cask "silverlight"
 cask "flash-player"
-cask "kindle"
 cask "gopro-studio"
 cask "clipgrab"
 cask "vlc"
 cask "vlcstreamer"
-cask "google-photos-backup"
 cask "plex-media-server"
 
 # Utilities
@@ -115,7 +110,6 @@ cask "carbon-copy-cloner"
 cask "superduper"
 cask "handbrake"
 cask "transmission"
-cask "google-earth"
 cask "the-unarchiver"
 cask "screenflow"
 cask "gpgtools"
@@ -123,11 +117,14 @@ cask "istat-menus"
 cask "tripmode"
 cask "audio-hijack"
 cask "loopback"
+cask "freedom"
 
 # Security
 cask "1password"
+cask "authy"
 cask "veracrypt"
 cask "tunnelbear"
+
 
 # Mac App Store Installs
 mas "Day One Classic", id: 422304217
@@ -146,9 +143,7 @@ mas "Tweetbot", id: 557168941
 mas "WiFi Explorer", id: 494803304
 mas "Byword", id: 420212497
 mas "Pages", id: 409201541
-mas "Helium", id: 1054607607
 mas "Tunesify", id: 412675054
-mas "Audiobook Builder", id: 406226796
 mas "PageLayers", id: 437835477
 mas "Bear", id: 1091189122
 mas "YubiKey Personalization Tool", id: 638161122
