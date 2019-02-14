@@ -21,11 +21,11 @@ brew "heroku-toolbelt"
 
 # Image/Video manipulation
 brew "imagemagick"
-brew handbrake
-brew ffmpeg
-brew mkvtoolnix
-brew mp4v2
-brew mpv
+brew "handbrake"
+brew "ffmpeg"
+brew "mkvtoolnix"
+brew "mp4v2"
+brew "mpv"
 
 # Languages and package managers
 brew "node"
