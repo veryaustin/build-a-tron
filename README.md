@@ -81,7 +81,7 @@ Brew Cask Applications:
 * [Blisk] Browser
 * [Mozilla Firefox] Browser
 * [Mozilla Firefox Developer Edition] Browser
-* [Brave] Brave Browser
+* [Brave] Browser
 * [Opera] Browser
 * [Tor] Browser
 * [Alfred] for application & file launching
