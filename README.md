@@ -81,6 +81,7 @@ Brew Cask Applications:
 * [Blisk] Browser
 * [Mozilla Firefox] Browser
 * [Mozilla Firefox Developer Edition] Browser
+* [Brave] Brave Browser
 * [Opera] Browser
 * [Tor] Browser
 * [Alfred] for application & file launching
@@ -108,30 +109,39 @@ Brew Cask Applications:
 * [Source Tree] for another nice GUI for git
 * [Dash] for local code documentation
 * [Mou] Native Mac markdown editor
+* [GraphQL Playground] for GraphQL GUI
+* [Notion] for clipping articles and taking notes. Comparing with BearApp
 * [Java] required for Android Dev
 * [Postico] for a simple postgres GUI
 * [Postgres] for simple postgres setup
 * [Navicat For Postgresql] for another postgres GUI
 * [Navicat For SQLite] for a SQLite GUI
+* [Table Plus] for another database GUI
+* [dbKoda] for yet another database GUI
 * [Slack] for chatting with friends, co-workers & clients
+* [Sneek] for human contact for remote teams
 * [Skype] for using the Kleenex of video chat
 * [Pocketcasts] for listing to podcasts
 * [Spotify] for jamming to music
-* [Flash Player] because it won't die
 * [GoPro Studio] for updating my GoPro
 * [Clipgrab] for grabbing video clips
 * [VLC] for viewing almost any video format
 * [VLC Streamer] for streaming almost any video format
+* [Blender] for 3D modeling/vFX
+* [fSpy] Blender plugin for camera matching
 * [Audio Hi-Jack] for recording/routing internal audio
 * [Loopback] for creating virtual internal I/O audio interfaces
+* [Sound Source] for internal OS audio mixing
+* [MusScore] for writing down musical notes
 * [Freedom] for getting focus in a distracted digital world. Focus!
 * [Chrome Remote Desktop Host]: for remoting into workstations logged into chrome
 * [iStat Menus] for keeping an eye on workstation resources
+* [Arq] for backup
 * [Crashplan] for backup. Better to be safe:)
 * [Duet] for having the occasional iPad screen while traveling
 * [Resolutionator] for quickly switching screen resolutions
 * [Drobo Dashboard] for managing my Drobo
-* [Carbon Copy Cloner] for duping the occasional directory/disk
+* [Carbon Copy Cloner] for duping directories/disks
 * [Super Duper] for duping the occasional disk
 * [Handbrake] for converting video into something usable
 * [Transmission] for downloading linux distributions & other large files
@@ -146,7 +156,7 @@ Brew Cask Applications:
 
 Mac App Store Applications:
 
-* [Day One Classic] for note/taking & journaling.
+* [Day One Classic] for note/taking & journal
 * [Blackmagic Disk Speed Test] for testing the read/write speed of disks
 * [Fantastical] for managing my calendar
 * [iHex] for viewing file contents in hex
@@ -163,9 +173,11 @@ Mac App Store Applications:
 * [Pages] for making pretty "Word" documents
 * [Tunesify] for converting audio files to various formats
 * [PageLayers] for clipping websites and creating Photoshop layouts
-* [Bear] for clipping articles and taking notes. More simple thatn Evernote
+* [Bear] for clipping articles and taking notes. More simple that Evernote
 * [YubiKey Personalization Tool] for personalizing Yubikeys
 * [Trello] for having a desktop client for Trello
+* [Teracopy] for duping directories/disks
+* [Dmesh] for Triangular mesh image generation
 
 [exuberant ctags]: http://ctags.sourceforge.net/
 [heroku toolbelt]: https://toolbelt.heroku.com/
@@ -193,16 +205,19 @@ Mac App Store Applications:
 [blisk]: https://blisk.io/
 [mozilla firefox]: https://www.mozilla.org/en-US/firefox/new/
 [mozilla firefox developer edition]: https://www.mozilla.org/en-US/firefox/developer/
+[brave]: https://brave.com
 [opera]: https://www.opera.com/
 [tor]: https://www.torproject.org/projects/torbrowser.html
 [alfred]: https://www.alfredapp.com/
 [dropbox]: http://dropbox.com/
-[google backup & sync]: https://www.google.com/drive/download/
+[Google Backup & Sync]: https://www.google.com/drive/download/
 [plex]: https://www.plex.tv/
 [balsamiq mockups]: https://balsamiq.com/products/mockups/
 [skyfonts]: http://skyfonts.com/
 [color snapper]: http://colorsnapper.com/
 [sketch]: https://www.sketchapp.com/
+[dmesh]: http://dmesh.thedofl.com/
+[iconjar]: https://geticonjar.com
 [hyper]: https://hyper.is/
 [iterm]: https://www.iterm2.com/
 [macvim]: https://github.com/b4winckler/macvim/releases
@@ -220,31 +235,41 @@ Mac App Store Applications:
 [source tree]: https://www.sourcetreeapp.com/
 [dash]: https://kapeli.com/dash
 [mou]: http://25.io/mou/
+[graphql playground]: https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/
+[notion]: https://notion.so
 [java]: https://www.java.com/en/download/
 [postico]: https://eggerapps.at/postico/
 [postgres app]: http://postgresapp.com/
 [navicat for postgresql]: http://www.navicat.com/products/navicat-for-postgresql/
 [navicat for sqlite]: http://www.navicat.com/products/navicat-for-sqlite/
+[table plus]: https://tableplus.com
+[dbKoda]: https://www.dbkoda.com
 [slack]: https://slack.com/
+[sneek]: https://sneek.io
 [skype]: http://skype.com/
 [pocketcasts]: http://www.shiftyjelly.com/pocketcasts/
 [spotify]: http://www.spotify.com/
-[flash player]: https://get.adobe.com/flashplayer/
 [gopro studio]: http://shop.gopro.com/softwareandapp/gopro-studio/GoPro-Studio.html
 [clipgrab]: https://clipgrab.org/
 [vlc]: http://www.videolan.org/vlc/index.html
 [vlc streamer]: http://hobbyistsoftware.com/vlcstreamer
+[blender]: https://www.blender.org
+[fspy]: https://fspy.io/
 [audio hi-jack]: https://www.rogueamoeba.com/audiohijack/
 [loopback]: https://www.rogueamoeba.com/loopback/
+[sound source]: https://rogueamoeba.com/soundsource/
+[musescore]: https://musescore.org
 [freedom]: https://http://freedom.to
 [chrome remote desktop host]: https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=en
 [istat menus]: https://bjango.com/mac/istatmenus/
+[arq]: https://arqbackup.com
 [crashplan]: http://www.code42.com/crashplan/
 [duet]: http://www.duetdisplay.com/
 [resolutionator]: http://manytricks.com/resolutionator/
 [drobo dashboard]: http://www.drobo.com/
 [carbon copy cloner]: https://bombich.com/
 [super duper]: http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
+[teracopy]: https://www.codesector.com/
 [handbrake]: https://handbrake.fr/
 [transmission]: http://www.transmissionbt.com/
 [screenflow]: http://www.telestream.net/screenflow/overview.htm

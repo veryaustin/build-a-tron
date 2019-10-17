@@ -26,6 +26,8 @@ brew "ffmpeg"
 brew "mkvtoolnix"
 brew "mp4v2"
 brew "mpv"
+brew "blender"
+brew "fspy"
 
 # Languages and package managers
 brew "node"
@@ -43,15 +45,18 @@ cask "google-chrome"
 cask "blisk"
 cask "firefox"
 cask "caskroom/versions/firefox-developer-edition"
+cask "brave-browser"
 cask "opera"
 cask "torbrowser"
 
 # Productivity
 cask "alfred"
+cask "notion"
 
 # Storage/Documents
 cask "dropbox"
 cask "google-backup-and-sync"
+cask "arq"
 cask "code42-crashplan"
 
 # Design
@@ -59,6 +64,7 @@ cask "balsamiq-mockups"
 cask "skyfonts"
 cask "colorsnapper"
 cask "sketch"
+cask "iconjar"
 
 # Development
 cask "hyper"
@@ -79,21 +85,25 @@ cask "virtualbox"
 cask "sourcetree"
 cask "dash"
 cask "java"
+cask "mou"
+cask "graphql-playground"
 
 # Database
 cask "postgres"
 cask "postico"
 cask "navicat-for-sqlite"
 cask "navicat-for-postgresql"
+cask "tableplus"
+cask "dbkoda"
 
 # Communication
 cask "slack"
+cask "sneek"
 cask "skype"
 
 # Media/Entertainment
 cask "pocketcasts"
 cask "spotify"
-cask "flash-player"
 cask "gopro-studio"
 cask "clipgrab"
 cask "vlc"
@@ -117,6 +127,8 @@ cask "istat-menus"
 cask "tripmode"
 cask "audio-hijack"
 cask "loopback"
+cask "soundsource"
+case "musescore"
 cask "freedom"
 
 # Security
@@ -148,3 +160,5 @@ mas "PageLayers", id: 437835477
 mas "Bear", id: 1091189122
 mas "YubiKey Personalization Tool", id: 638161122
 mas "Trello", id: 1278508951
+mas "Teracopy", id: 1378806557
+mas "Dmesh", id: 480992638
