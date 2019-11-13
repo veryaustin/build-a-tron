@@ -19,6 +19,17 @@ brew "zsh"
 # Heroku
 brew "heroku-toolbelt"
 
+# Quicklook Plugins
+brew "qlcolorcode"
+brew "qlstephen"
+brew "qlmarkdown"
+brew "quicklook-json"
+brew "qlprettypatch"
+brew "quicklook-csv"
+brew "betterzipql"
+brew "webpquicklook"
+brew "suspicious-package"
+
 # Image/Video manipulation
 brew "imagemagick"
 brew "handbrake"
@@ -98,6 +109,7 @@ cask "dbkoda"
 
 # Communication
 cask "slack"
+cask "rocket-chat"
 cask "sneek"
 cask "skype"
 

@@ -56,6 +56,10 @@ Heroku tools:
 
 * [Heroku Toolbelt] and [Parity] for interacting with the Heroku API
 
+Quicklook:
+
+* [Quicklook Plugins] for viewing code, csv and additional documents via MacOS Quicklook
+
 Image/Video Tools:
 
 * [ImageMagick] for cropping and resizing images
@@ -119,6 +123,7 @@ Brew Cask Applications:
 * [Table Plus] for another database GUI
 * [dbKoda] for yet another database GUI
 * [Slack] for chatting with friends, co-workers & clients
+* [Rocket Chat] for chatting with friends using open-source team communication app
 * [Sneek] for human contact for remote teams
 * [Skype] for using the Kleenex of video chat
 * [Pocketcasts] for listing to podcasts
@@ -181,6 +186,7 @@ Mac App Store Applications:
 
 [exuberant ctags]: http://ctags.sourceforge.net/
 [heroku toolbelt]: https://toolbelt.heroku.com/
+[Quicklook Plugins]: https://www.quicklookplugins.com/
 [homebrew]: http://brew.sh/
 [imagemagick]: http://www.imagemagick.org/
 [handbrake cli]: https://handbrake.fr/docs/en/latest/cli/cli-options.html
@@ -245,6 +251,7 @@ Mac App Store Applications:
 [table plus]: https://tableplus.com
 [dbKoda]: https://www.dbkoda.com
 [slack]: https://slack.com/
+[rocketchat]: https://rocket.chat/
 [sneek]: https://sneek.io
 [skype]: http://skype.com/
 [pocketcasts]: http://www.shiftyjelly.com/pocketcasts/
