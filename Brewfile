@@ -112,6 +112,7 @@ cask "slack"
 cask "rocket-chat"
 cask "sneek"
 cask "skype"
+cask "zoom"
 
 # Media/Entertainment
 cask "pocketcasts"

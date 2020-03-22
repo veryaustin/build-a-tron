@@ -126,6 +126,7 @@ Brew Cask Applications:
 * [Rocket Chat] for chatting with friends using open-source team communication app
 * [Sneek] for human contact for remote teams
 * [Skype] for using the Kleenex of video chat
+* [Zoom] for remote meetings
 * [Pocketcasts] for listing to podcasts
 * [Spotify] for jamming to music
 * [GoPro Studio] for updating my GoPro
@@ -254,6 +255,7 @@ Mac App Store Applications:
 [rocketchat]: https://rocket.chat/
 [sneek]: https://sneek.io
 [skype]: http://skype.com/
+[zoom]: https://zoom.us/
 [pocketcasts]: http://www.shiftyjelly.com/pocketcasts/
 [spotify]: http://www.spotify.com/
 [gopro studio]: http://shop.gopro.com/softwareandapp/gopro-studio/GoPro-Studio.html
