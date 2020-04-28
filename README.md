@@ -142,8 +142,7 @@ Brew Cask Applications:
 * [Freedom] for getting focus in a distracted digital world. Focus!
 * [Chrome Remote Desktop Host]: for remoting into workstations logged into chrome
 * [iStat Menus] for keeping an eye on workstation resources
-* [Arq] for backup
-* [Crashplan] for backup. Better to be safe:)
+* [Arq] for backup. Better to be safe:)
 * [Duet] for having the occasional iPad screen while traveling
 * [Resolutionator] for quickly switching screen resolutions
 * [Drobo Dashboard] for managing my Drobo
@@ -272,7 +271,6 @@ Mac App Store Applications:
 [chrome remote desktop host]: https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=en
 [istat menus]: https://bjango.com/mac/istatmenus/
 [arq]: https://arqbackup.com
-[crashplan]: http://www.code42.com/crashplan/
 [duet]: http://www.duetdisplay.com/
 [resolutionator]: http://manytricks.com/resolutionator/
 [drobo dashboard]: http://www.drobo.com/

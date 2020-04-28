@@ -68,7 +68,6 @@ cask "notion"
 cask "dropbox"
 cask "google-backup-and-sync"
 cask "arq"
-cask "code42-crashplan"
 
 # Design
 cask "balsamiq-mockups"
