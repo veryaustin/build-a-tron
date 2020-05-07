@@ -129,6 +129,7 @@ Brew Cask Applications:
 * [Zoom] for remote meetings
 * [Pocketcasts] for listing to podcasts
 * [Spotify] for jamming to music
+* [OpenEmu] for old school gaming fun
 * [GoPro Studio] for updating my GoPro
 * [Clipgrab] for grabbing video clips
 * [VLC] for viewing almost any video format
@@ -138,7 +139,7 @@ Brew Cask Applications:
 * [Audio Hi-Jack] for recording/routing internal audio
 * [Loopback] for creating virtual internal I/O audio interfaces
 * [Sound Source] for internal OS audio mixing
-* [MusScore] for writing down musical notes
+* [MuseScore] for writing down musical notes
 * [Freedom] for getting focus in a distracted digital world. Focus!
 * [Chrome Remote Desktop Host]: for remoting into workstations logged into chrome
 * [iStat Menus] for keeping an eye on workstation resources
@@ -251,12 +252,13 @@ Mac App Store Applications:
 [table plus]: https://tableplus.com
 [dbKoda]: https://www.dbkoda.com
 [slack]: https://slack.com/
-[rocketchat]: https://rocket.chat/
+[rocket chat]: https://rocket.chat/
 [sneek]: https://sneek.io
 [skype]: http://skype.com/
 [zoom]: https://zoom.us/
 [pocketcasts]: http://www.shiftyjelly.com/pocketcasts/
 [spotify]: http://www.spotify.com/
+[openemu]: http://openemu.org/
 [gopro studio]: http://shop.gopro.com/softwareandapp/gopro-studio/GoPro-Studio.html
 [clipgrab]: https://clipgrab.org/
 [vlc]: http://www.videolan.org/vlc/index.html
@@ -282,7 +284,7 @@ Mac App Store Applications:
 [screenflow]: http://www.telestream.net/screenflow/overview.htm
 [gpg]: https://gpgtools.org/
 [1password]: https://1password.com/
-[1password-cli]: https://support.1password.com/command-line/
+[1password cli]: https://support.1password.com/command-line/
 [Authy]: https://authy.com
 [tunnel bear]: https://www.tunnelbear.com/
 [tripmode]: http://tripmode.ch/

@@ -116,6 +116,7 @@ cask "zoomus"
 # Media/Entertainment
 cask "pocketcasts"
 cask "spotify"
+cask "openemu"
 cask "gopro-studio"
 cask "clipgrab"
 cask "vlc"
