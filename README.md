@@ -141,12 +141,11 @@ Brew Cask Applications:
 * [Sound Source] for internal OS audio mixing
 * [MuseScore] for writing down musical notes
 * [Freedom] for getting focus in a distracted digital world. Focus!
-* [Chrome Remote Desktop Host]: for remoting into workstations logged into chrome
+* [Gas Mask] A GUI for managine hosts file
 * [iStat Menus] for keeping an eye on workstation resources
 * [Arq] for backup. Better to be safe:)
 * [Duet] for having the occasional iPad screen while traveling
 * [Resolutionator] for quickly switching screen resolutions
-* [Drobo Dashboard] for managing my Drobo
 * [Carbon Copy Cloner] for duping directories/disks
 * [Super Duper] for duping the occasional disk
 * [Handbrake] for converting video into something usable
@@ -270,6 +269,7 @@ Mac App Store Applications:
 [sound source]: https://rogueamoeba.com/soundsource/
 [musescore]: https://musescore.org
 [freedom]: https://http://freedom.to
+[gas mask]: https://github.com/2ndalpha/gasmask
 [chrome remote desktop host]: https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=en
 [istat menus]: https://bjango.com/mac/istatmenus/
 [arq]: https://arqbackup.com

@@ -124,11 +124,9 @@ cask "vlcstreamer"
 cask "plex-media-server"
 
 # Utilities
-cask "chrome-remote-desktop-host"
 cask "fantastical"
 cask "duet"
 cask "resolutionator"
-cask "drobo-dashboard"
 cask "carbon-copy-cloner"
 cask "superduper"
 cask "handbrake"
@@ -143,6 +141,7 @@ cask "loopback"
 cask "soundsource"
 case "musescore"
 cask "freedom"
+cask "gas-mask"
 
 # Security
 cask "1password"
