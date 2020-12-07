@@ -37,8 +37,6 @@ brew "ffmpeg"
 brew "mkvtoolnix"
 brew "mp4v2"
 brew "mpv"
-brew "blender"
-brew "fspy"
 
 # Languages and package managers
 brew "node"
@@ -101,15 +99,11 @@ cask "graphql-playground"
 # Database
 cask "postgres"
 cask "postico"
-cask "navicat-for-sqlite"
-cask "navicat-for-postgresql"
 cask "tableplus"
-cask "dbkoda"
 
 # Communication
 cask "slack"
 cask "rocket-chat"
-cask "sneek"
 cask "skype"
 cask "zoomus"
 
@@ -121,11 +115,11 @@ cask "gopro-studio"
 cask "clipgrab"
 cask "vlc"
 cask "vlcstreamer"
+cast "iina"
 cask "plex-media-server"
 
 # Utilities
 cask "fantastical"
-cask "duet"
 cask "resolutionator"
 cask "carbon-copy-cloner"
 cask "superduper"
@@ -147,11 +141,8 @@ cask "gas-mask"
 cask "1password"
 cask "authy"
 cask "veracrypt"
-cask "tunnelbear"
-
 
 # Mac App Store Installs
-mas "Day One Classic", id: 422304217
 mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Fantastical", id: 435003921
 mas "iHex", id: 909566003
@@ -165,7 +156,6 @@ mas "The Unarchiver", id: 425424353
 mas "Pocket", id: 568494494
 mas "Tweetbot", id: 557168941
 mas "WiFi Explorer", id: 494803304
-mas "Byword", id: 420212497
 mas "Pages", id: 409201541
 mas "Tunesify", id: 412675054
 mas "PageLayers", id: 437835477

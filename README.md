@@ -118,13 +118,9 @@ Brew Cask Applications:
 * [Java] required for Android Dev
 * [Postico] for a simple postgres GUI
 * [Postgres] for simple postgres setup
-* [Navicat For Postgresql] for another postgres GUI
-* [Navicat For SQLite] for a SQLite GUI
 * [Table Plus] for another database GUI
-* [dbKoda] for yet another database GUI
 * [Slack] for chatting with friends, co-workers & clients
 * [Rocket Chat] for chatting with friends using open-source team communication app
-* [Sneek] for human contact for remote teams
 * [Skype] for using the Kleenex of video chat
 * [Zoom] for remote meetings
 * [Pocketcasts] for listing to podcasts
@@ -134,8 +130,7 @@ Brew Cask Applications:
 * [Clipgrab] for grabbing video clips
 * [VLC] for viewing almost any video format
 * [VLC Streamer] for streaming almost any video format
-* [Blender] for 3D modeling/vFX
-* [fSpy] Blender plugin for camera matching
+* [iINA] for streaming almost any video format
 * [Audio Hi-Jack] for recording/routing internal audio
 * [Loopback] for creating virtual internal I/O audio interfaces
 * [Sound Source] for internal OS audio mixing
@@ -144,7 +139,6 @@ Brew Cask Applications:
 * [Gas Mask] A GUI for managine hosts file
 * [iStat Menus] for keeping an eye on workstation resources
 * [Arq] for backup. Better to be safe:)
-* [Duet] for having the occasional iPad screen while traveling
 * [Resolutionator] for quickly switching screen resolutions
 * [Carbon Copy Cloner] for duping directories/disks
 * [Super Duper] for duping the occasional disk
@@ -155,13 +149,11 @@ Brew Cask Applications:
 * [1Password] for managing passwords
 * [1Password CLI] for accessing 1Password via CLI
 * [Authy] for two-factor authentication
-* [Tunnel Bear] for OpenVPN privacy on public networks
 * [Veracrypt] for encrypting drives
 * [Tripmode] for managing network traffic while tethered to mobile devices
 
 Mac App Store Applications:
 
-* [Day One Classic] for note/taking & journal
 * [Blackmagic Disk Speed Test] for testing the read/write speed of disks
 * [Fantastical] for managing my calendar
 * [iHex] for viewing file contents in hex
@@ -174,7 +166,6 @@ Mac App Store Applications:
 * [Pocket] for saving articles for reading later
 * [Tweetbot] for keeping a close eye on the Twitterverse
 * [WiFi Explorer] for seeing all the WiFi in the area
-* [Byword] for simple clean Markdown editing
 * [Pages] for making pretty "Word" documents
 * [Tunesify] for converting audio files to various formats
 * [PageLayers] for clipping websites and creating Photoshop layouts
@@ -207,106 +198,94 @@ Mac App Store Applications:
 [nvm]: https://github.com/creationix/nvm
 
 
-[google chrome]: https://www.google.com/chrome/
-[blisk]: https://blisk.io/
-[mozilla firefox]: https://www.mozilla.org/en-US/firefox/new/
-[mozilla firefox developer edition]: https://www.mozilla.org/en-US/firefox/developer/
-[brave]: https://brave.com
-[opera]: https://www.opera.com/
-[tor]: https://www.torproject.org/projects/torbrowser.html
-[alfred]: https://www.alfredapp.com/
-[dropbox]: http://dropbox.com/
+[Google Chrome]: https://www.google.com/chrome/
+[Blisk]: https://blisk.io/
+[Mozilla Firefox]: https://www.mozilla.org/en-US/firefox/new/
+[Mozilla Firefox Developer Edition]: https://www.mozilla.org/en-US/firefox/developer/
+[Brave]: https://brave.com
+[Opera]: https://www.opera.com/
+[Tor]: https://www.torproject.org/projects/torbrowser.html
+[Alfred]: https://www.alfredapp.com/
+[Dropbox]: http://dropbox.com/
 [Google Backup & Sync]: https://www.google.com/drive/download/
-[plex]: https://www.plex.tv/
-[balsamiq mockups]: https://balsamiq.com/products/mockups/
-[skyfonts]: http://skyfonts.com/
-[color snapper]: http://colorsnapper.com/
-[sketch]: https://www.sketchapp.com/
-[dmesh]: http://dmesh.thedofl.com/
-[iconjar]: https://geticonjar.com
-[hyper]: https://hyper.is/
+[Plex]: https://www.plex.tv/
+[Balsamiq Mockups]: https://balsamiq.com/products/mockups/
+[Skyfonts]: http://skyfonts.com/
+[Color Snapper]: http://colorsnapper.com/
+[Sketch]: https://www.sketchapp.com/
+[Dmesh]: http://dmesh.thedofl.com/
+[Iconjar]: https://geticonjar.com
+[Hyper]: https://hyper.is/
 [iterm]: https://www.iterm2.com/
-[macvim]: https://github.com/b4winckler/macvim/releases
-[codekit]: https://incident57.com/codekit/
-[vscode]: https://code.visualstudio.com/
-[postman]: https://www.getpostman.com/
-[paw]: https://paw.cloud/
-[github desktop]: https://desktop.github.com/
-[mamp]: https://www.mamp.info/en/
-[docker]: https://www.docker.com/
-[kitematic]: https://kitematic.com/
-[transmit]: https://panic.com/transmit/
-[vmware fusion]: https://www.vmware.com/products/fusion
-[virtual box]: https://www.virtualbox.org/wiki/Downloads
-[source tree]: https://www.sourcetreeapp.com/
-[dash]: https://kapeli.com/dash
-[mou]: http://25.io/mou/
-[graphql playground]: https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/
-[notion]: https://notion.so
-[java]: https://www.java.com/en/download/
-[postico]: https://eggerapps.at/postico/
-[postgres app]: http://postgresapp.com/
-[navicat for postgresql]: http://www.navicat.com/products/navicat-for-postgresql/
-[navicat for sqlite]: http://www.navicat.com/products/navicat-for-sqlite/
-[table plus]: https://tableplus.com
-[dbKoda]: https://www.dbkoda.com
-[slack]: https://slack.com/
-[rocket chat]: https://rocket.chat/
-[sneek]: https://sneek.io
-[skype]: http://skype.com/
-[zoom]: https://zoom.us/
-[pocketcasts]: http://www.shiftyjelly.com/pocketcasts/
-[spotify]: http://www.spotify.com/
-[openemu]: http://openemu.org/
-[gopro studio]: http://shop.gopro.com/softwareandapp/gopro-studio/GoPro-Studio.html
-[clipgrab]: https://clipgrab.org/
-[vlc]: http://www.videolan.org/vlc/index.html
-[vlc streamer]: http://hobbyistsoftware.com/vlcstreamer
-[blender]: https://www.blender.org
-[fspy]: https://fspy.io/
-[audio hi-jack]: https://www.rogueamoeba.com/audiohijack/
-[loopback]: https://www.rogueamoeba.com/loopback/
-[sound source]: https://rogueamoeba.com/soundsource/
-[musescore]: https://musescore.org
-[freedom]: https://http://freedom.to
-[gas mask]: https://github.com/2ndalpha/gasmask
-[chrome remote desktop host]: https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=en
-[istat menus]: https://bjango.com/mac/istatmenus/
-[arq]: https://arqbackup.com
-[duet]: http://www.duetdisplay.com/
-[resolutionator]: http://manytricks.com/resolutionator/
-[drobo dashboard]: http://www.drobo.com/
-[carbon copy cloner]: https://bombich.com/
-[super duper]: http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
-[teracopy]: https://www.codesector.com/
-[handbrake]: https://handbrake.fr/
-[transmission]: http://www.transmissionbt.com/
-[screenflow]: http://www.telestream.net/screenflow/overview.htm
-[gpg]: https://gpgtools.org/
-[1password]: https://1password.com/
-[1password cli]: https://support.1password.com/command-line/
+[Macvim]: https://github.com/b4winckler/macvim/releases
+[Codekit]: https://incident57.com/codekit/
+[VSCode]: https://code.visualstudio.com/
+[Postman]: https://www.getpostman.com/
+[Paw]: https://paw.cloud/
+[Github Desktop]: https://desktop.github.com/
+[MAMP]: https://www.mamp.info/en/
+[Docker]: https://www.docker.com/
+[Kitematic]: https://kitematic.com/
+[Transmit]: https://panic.com/transmit/
+[VMWare fusion]: https://www.vmware.com/products/fusion
+[Virtual Box]: https://www.virtualbox.org/wiki/Downloads
+[Source Tree]: https://www.sourcetreeapp.com/
+[Dash]: https://kapeli.com/dash
+[Mou]: http://25.io/mou/
+[GraphQL Playground]: https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/
+[Notion]: https://notion.so
+[Java]: https://www.java.com/en/download/
+[Postico]: https://eggerapps.at/postico/
+[Postgres App]: http://postgresapp.com/
+[Table Plus]: https://tableplus.com
+[Slack]: https://slack.com/
+[Rocket Chat]: https://rocket.chat/
+[Skype]: http://skype.com/
+[Zoom]: https://zoom.us/
+[Pocketcasts]: http://www.shiftyjelly.com/pocketcasts/
+[Spotify]: http://www.spotify.com/
+[OpenEmu]: http://openemu.org/
+[GoPro Studio]: http://shop.gopro.com/softwareandapp/gopro-studio/GoPro-Studio.html
+[ClipGrab]: https://clipgrab.org/
+[VLC]: http://www.videolan.org/vlc/index.html
+[VLC Streamer]: http://hobbyistsoftware.com/vlcstreamer
+[iINA]: https://iina.io/
+[Audio Hi-Jack]: https://www.rogueamoeba.com/audiohijack/
+[Loopback]: https://www.rogueamoeba.com/loopback/
+[Sound Source]: https://rogueamoeba.com/soundsource/
+[MuseScore]: https://musescore.org
+[Freedom]: https://http://freedom.to
+[Gas Mask]: https://github.com/2ndalpha/gasmask
+[iStat Menus]: https://bjango.com/mac/istatmenus/
+[Arq]: https://arqbackup.com
+[Resolutionator]: http://manytricks.com/resolutionator/
+[Carbon Copy Cloner]: https://bombich.com/
+[Super Duper]: http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html
+[Teracopy]: https://www.codesector.com/
+[Handbrake]: https://handbrake.fr/
+[Transmission]: http://www.transmissionbt.com/
+[Screenflow]: http://www.telestream.net/screenflow/overview.htm
+[GPG]: https://gpgtools.org/
+[1Password]: https://1password.com/
+[1Password-CLI]: https://support.1password.com/command-line/
 [Authy]: https://authy.com
-[tunnel bear]: https://www.tunnelbear.com/
-[tripmode]: http://tripmode.ch/
-[veracrypt]: https://veracrypt.codeplex.com/
-[day one classic]: http://dayoneapp.com/
-[blackmagic disk speed test]: https://itunes.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12
-[fantastical]: https://flexibits.com/fantastical
-[ihex]: https://itunes.apple.com/us/app/ihex-hex-editor/id909566003?mt=12
-[cloudapp]: https://itunes.apple.com/us/app/cloudapp-capture-share-gifs-videos-screencasts/id417602904?mt=12
-[forecast bar]: https://itunes.apple.com/us/app/forecast-bar-weather-radar-and-alerts/id982710545?mt=12
-[noizio]: https://itunes.apple.com/us/app/noizio/id928871589?mt=12
-[better rename 9]: https://itunes.apple.com/us/app/better-rename-9/id414209656?mt=12
-[magnet]: https://itunes.apple.com/us/app/magnet/id441258766?mt=12
-[video2gif]: https://itunes.apple.com/us/app/video2gif/id672062950?mt=12
-[the unarchiver]: https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12
-[pocket]: https://itunes.apple.com/us/app/pocket/id568494494?mt=12
-[tweetbot]: https://tapbots.com/tweetbot/mac/
-[wifi explorer]: https://itunes.apple.com/us/app/wifi-explorer/id494803304?mt=12
-[byword]: https://itunes.apple.com/us/app/byword/id420212497?mt=12
-[pages]: https://itunes.apple.com/us/app/pages/id409201541?mt=12
-[tunesify]: https://itunes.apple.com/us/app/tunesify/id412675054?mt=12
-[pagelayers]: https://itunes.apple.com/us/app/page-layers-website-screenshots-with-layers/id437835477?mt=12
-[bear]: https://itunes.apple.com/us/app/bear-beautiful-writing-app-for-notes-and-prose/id1091189122?mt=12
-[yubikey personalization tool]: https://itunes.apple.com/us/app/yubikey-personalization-tool/id638161122?mt=12
-[trello]: https://itunes.apple.com/us/app/trello/id1278508951?mt=12
+[Tripmode]: http://tripmode.ch/
+[Veracrypt]: https://veracrypt.codeplex.com/
+[Fantastical]: https://flexibits.com/fantastical
+[iHex]: https://itunes.apple.com/us/app/ihex-hex-editor/id909566003?mt=12
+[CloudApp]: https://itunes.apple.com/us/app/cloudapp-capture-share-gifs-videos-screencasts/id417602904?mt=12
+[Forecast Bar]: https://itunes.apple.com/us/app/forecast-bar-weather-radar-and-alerts/id982710545?mt=12
+[Noizio]: https://itunes.apple.com/us/app/noizio/id928871589?mt=12
+[Better Rename 9]: https://itunes.apple.com/us/app/better-rename-9/id414209656?mt=12
+[Magnet]: https://itunes.apple.com/us/app/magnet/id441258766?mt=12
+[Video2GIF]: https://itunes.apple.com/us/app/video2gif/id672062950?mt=12
+[The Unarchiver]: https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12
+[Pocket]: https://itunes.apple.com/us/app/pocket/id568494494?mt=12
+[Tweetbot]: https://tapbots.com/tweetbot/mac/
+[WiFi Explorer]: https://itunes.apple.com/us/app/wifi-explorer/id494803304?mt=12
+[Pages]: https://itunes.apple.com/us/app/pages/id409201541?mt=12
+[Tunesify]: https://itunes.apple.com/us/app/tunesify/id412675054?mt=12
+[Pagelayers]: https://itunes.apple.com/us/app/page-layers-website-screenshots-with-layers/id437835477?mt=12
+[Bear]: https://itunes.apple.com/us/app/bear-beautiful-writing-app-for-notes-and-prose/id1091189122?mt=12
+[Yubikey Personalization Tool]: https://itunes.apple.com/us/app/yubikey-personalization-tool/id638161122?mt=12
+[Trello]: https://itunes.apple.com/us/app/trello/id1278508951?mt=12
