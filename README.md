@@ -137,6 +137,7 @@ Brew Cask Applications:
 * [MuseScore] for writing down musical notes
 * [Freedom] for getting focus in a distracted digital world. Focus!
 * [Gas Mask] A GUI for managine hosts file
+* [Rectangle] for managing windows
 * [iStat Menus] for keeping an eye on workstation resources
 * [Arq] for backup. Better to be safe:)
 * [Resolutionator] for quickly switching screen resolutions
@@ -265,6 +266,7 @@ Mac App Store Applications:
 [Handbrake]: https://handbrake.fr/
 [Transmission]: http://www.transmissionbt.com/
 [Screenflow]: http://www.telestream.net/screenflow/overview.htm
+[Rectangle]: https://rectangleapp.com/
 [GPG]: https://gpgtools.org/
 [1Password]: https://1password.com/
 [1Password-CLI]: https://support.1password.com/command-line/
@@ -277,7 +279,6 @@ Mac App Store Applications:
 [Forecast Bar]: https://itunes.apple.com/us/app/forecast-bar-weather-radar-and-alerts/id982710545?mt=12
 [Noizio]: https://itunes.apple.com/us/app/noizio/id928871589?mt=12
 [Better Rename 9]: https://itunes.apple.com/us/app/better-rename-9/id414209656?mt=12
-[Magnet]: https://itunes.apple.com/us/app/magnet/id441258766?mt=12
 [Video2GIF]: https://itunes.apple.com/us/app/video2gif/id672062950?mt=12
 [The Unarchiver]: https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12
 [Pocket]: https://itunes.apple.com/us/app/pocket/id568494494?mt=12

@@ -136,6 +136,7 @@ cask "soundsource"
 case "musescore"
 cask "freedom"
 cask "gas-mask"
+cask "rectangle"
 
 # Security
 cask "1password"
@@ -150,7 +151,6 @@ mas "CloudApp", id: 417602904
 mas "Forecast Bar", id: 982710545
 mas "Noizio", id: 928871589
 mas "Better Rename 9", id: 414209656
-mas "Magnet", id: 441258766
 mas "Video2GIF", id: 672062950
 mas "The Unarchiver", id: 425424353
 mas "Pocket", id: 568494494
