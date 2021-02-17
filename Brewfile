@@ -59,7 +59,7 @@ cask "opera"
 cask "torbrowser"
 
 # Productivity
-cask "alfred"
+cask "raycast"
 cask "notion"
 
 # Storage/Documents

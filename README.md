@@ -88,7 +88,7 @@ Brew Cask Applications:
 * [Brave] Browser
 * [Opera] Browser
 * [Tor] Browser
-* [Alfred] for application & file launching
+* [Raycast] for application & file launching
 * [Dropbox] for file storage
 * [Google Backup & Sync] for file storage
 * [Plex] media server for serving local media over the network
@@ -206,7 +206,7 @@ Mac App Store Applications:
 [Brave]: https://brave.com
 [Opera]: https://www.opera.com/
 [Tor]: https://www.torproject.org/projects/torbrowser.html
-[Alfred]: https://www.alfredapp.com/
+[Raycast]: https://raycast.com/
 [Dropbox]: http://dropbox.com/
 [Google Backup & Sync]: https://www.google.com/drive/download/
 [Plex]: https://www.plex.tv/
