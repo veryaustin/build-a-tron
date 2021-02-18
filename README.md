@@ -174,7 +174,6 @@ Mac App Store Applications:
 * [YubiKey Personalization Tool] for personalizing Yubikeys
 * [Trello] for having a desktop client for Trello
 * [Teracopy] for duping directories/disks
-* [Dmesh] for Triangular mesh image generation
 
 [exuberant ctags]: http://ctags.sourceforge.net/
 [heroku toolbelt]: https://toolbelt.heroku.com/
@@ -214,7 +213,6 @@ Mac App Store Applications:
 [Skyfonts]: http://skyfonts.com/
 [Color Snapper]: http://colorsnapper.com/
 [Sketch]: https://www.sketchapp.com/
-[Dmesh]: http://dmesh.thedofl.com/
 [Iconjar]: https://geticonjar.com
 [Hyper]: https://hyper.is/
 [iterm]: https://www.iterm2.com/

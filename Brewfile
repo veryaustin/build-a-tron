@@ -133,7 +133,7 @@ cask "tripmode"
 cask "audio-hijack"
 cask "loopback"
 cask "soundsource"
-case "musescore"
+cask "musescore"
 cask "freedom"
 cask "gas-mask"
 cask "rectangle"
@@ -163,4 +163,3 @@ mas "Bear", id: 1091189122
 mas "YubiKey Personalization Tool", id: 638161122
 mas "Trello", id: 1278508951
 mas "Teracopy", id: 1378806557
-mas "Dmesh", id: 480992638
