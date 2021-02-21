@@ -97,6 +97,10 @@ fi
 echo "Updated Homebrew..."
 brew update
 
+# Install Homebrew Fonts
+brew tap homebrew/cask-fonts
+brew install font-fira-code
+
 # Install 1Password CLI/Mas for Command Line App Installs
 brew install jq
 brew install 1password-cli
