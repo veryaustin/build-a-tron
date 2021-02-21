@@ -50,7 +50,9 @@ Unix tools:
 * [Git] for version control
 * [OpenSSL] for Transport Layer Security (TLS)
 * [VIM] for document editing in the command line
-* [Zsh] as your shell
+* [zsh] as your shell
+* [z] for search for ZSH
+
 
 Heroku tools:
 
@@ -195,6 +197,7 @@ Mac App Store Applications:
 [redis]: http://redis.io/
 [openssl]: https://www.openssl.org/
 [zsh]: http://www.zsh.org/
+[z]: https://github.com/rupa/z
 [nvm]: https://github.com/creationix/nvm
 
 

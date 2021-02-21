@@ -15,6 +15,7 @@ brew "git"
 brew "openssl"
 brew "vim"
 brew "zsh"
+brew "z"
 
 # Heroku
 brew "heroku-toolbelt"
