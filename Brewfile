@@ -8,6 +8,7 @@ tap "ethereum/ethereum"
 tap "homebrew/bundle"
 tap "homebrew/php"
 tap "homebrew/services"
+tao "homebrew/cask-fonts"
 
 # Unix
 brew "ctags"
@@ -38,6 +39,9 @@ brew "ffmpeg"
 brew "mkvtoolnix"
 brew "mp4v2"
 brew "mpv"
+
+# Fonts
+brew "font-fira-code"
 
 # Languages and package managers
 brew "node"

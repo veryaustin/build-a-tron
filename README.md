@@ -70,6 +70,9 @@ Image/Video Tools:
 * [mkvtoolnix] matroska tools
 * [mp4v2] mp4 tools
 
+Fonts
+* [font-fira-code] Font: Fira Code
+
 Programming languages, package managers, and configuration:
 
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
@@ -186,6 +189,7 @@ Mac App Store Applications:
 [ffmpeg]: https://www.ffmpeg.org/
 [mkvtoolnix]: https://mkvtoolnix.download/
 [mp4v2]: https://github.com/pcwalton/mp4v2
+[font-fira-code]: https://github.com/tonsky/FiraCode
 [node.js]: http://nodejs.org/
 [npm]: https://www.npmjs.org/
 [postgres]: http://www.postgresql.org/
