@@ -150,6 +150,7 @@ Brew Cask Applications:
 * [Super Duper] for duping the occasional disk
 * [Handbrake] for converting video into something usable
 * [Transmission] for downloading linux distributions & other large files
+* [CleanShot] for clean shot...screen shots!
 * [Screenflow] for recording my screen
 * [GPG] for keeping prying eyes from reading what they shouldn't
 * [1Password] for managing passwords
@@ -270,6 +271,7 @@ Mac App Store Applications:
 [Teracopy]: https://www.codesector.com/
 [Handbrake]: https://handbrake.fr/
 [Transmission]: http://www.transmissionbt.com/
+[CleanShot]: https://cleanshot.com
 [Screenflow]: http://www.telestream.net/screenflow/overview.htm
 [Rectangle]: https://rectangleapp.com/
 [GPG]: https://gpgtools.org/
