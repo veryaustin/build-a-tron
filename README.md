@@ -167,7 +167,8 @@ Mac App Store Applications:
 * [CloudApp] for screenshots & filesharing
 * [Forecast Bar] for answering the most important question: Is it nice outside?
 * [Noizio] for providing ambient sound that is great for coding
-* [Better Rename 9] for batch file renaming* [Magnet] for managing windows on your machine
+* [Better Rename 9] for batch file renaming
+* [Magnet] for managing windows on your machine
 * [Video2GIF] for converting video to the most important file format for social..GIF!
 * [The Unarchiver] for unzipping a variety of formats
 * [Pocket] for saving articles for reading later
