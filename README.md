@@ -141,7 +141,7 @@ Brew Cask Applications:
 * [Sound Source] for internal OS audio mixing
 * [MuseScore] for writing down musical notes
 * [Freedom] for getting focus in a distracted digital world. Focus!
-* [Gas Mask] A GUI for managine hosts file
+* [Gas Mask] A GUI for managing hosts file
 * [Rectangle] for managing windows
 * [iStat Menus] for keeping an eye on workstation resources
 * [Arq] for backup. Better to be safe:)
@@ -168,7 +168,6 @@ Mac App Store Applications:
 * [Forecast Bar] for answering the most important question: Is it nice outside?
 * [Noizio] for providing ambient sound that is great for coding
 * [Better Rename 9] for batch file renaming
-* [Magnet] for managing windows on your machine
 * [Video2GIF] for converting video to the most important file format for social..GIF!
 * [The Unarchiver] for unzipping a variety of formats
 * [Pocket] for saving articles for reading later
