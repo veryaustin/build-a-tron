@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # Set Hostname
-sudo scutil --set ComputerName "computertron"
-sudo scutil --set LocalHostName "computertron"
-sudo scutil --set HostName "computertron"
+sudo scutil --set ComputerName "proputertron"
+sudo scutil --set LocalHostName "proputertron"
+sudo scutil --set HostName "proputertron"
 sudo dscacheutil -flushcache
 
 # Install Xcode From Secure Storage
