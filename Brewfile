@@ -5,7 +5,7 @@ tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "homebrew/php"
 tap "homebrew/services"
-tao "homebrew/cask-fonts"
+tap "homebrew/cask-fonts"
 
 # Unix
 brew "git"

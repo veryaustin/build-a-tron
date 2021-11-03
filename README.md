@@ -49,6 +49,7 @@ Unix tools:
 * [Git] for version control
 * [OpenSSL] for Transport Layer Security (TLS)
 * [zsh] as your shell
+* [z] tracks most-used directories to make cd smarter
 
 
 Quicklook:
@@ -166,6 +167,7 @@ Mac App Store Applications:
 [vim]: https://www.vim.org
 [yarn]: https://yarnpkg.com/en/
 [zsh]: http://www.zsh.org/
+[z]: https://github.com/rupa/z
 [nvm]: https://github.com/creationix/nvm
 [Google Chrome]: https://www.google.com/chrome/
 [Mozilla Firefox]: https://www.mozilla.org/en-US/firefox/new/
