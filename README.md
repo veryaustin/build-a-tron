@@ -114,7 +114,6 @@ Brew Cask Applications:
 * [Freedom] for getting focus in a distracted digital world. Focus!
 * [Gas Mask] A GUI for managing hosts file
 * [CheatSheet] View all shortcuts in active app
-* [iStat Menus] for keeping an eye on workstation resources
 * [Arq] for backup. Better to be safe:)
 * [Resolutionator] for quickly switching screen resolutions
 * [Rectangle] for managing windows
@@ -210,7 +209,6 @@ Mac App Store Applications:
 [Freedom]: https://http://freedom.to
 [Gas Mask]: https://github.com/2ndalpha/gasmask
 [Cheatsheet]: https://www.cheatsheetapp.com/CheatSheet/
-[iStat Menus]: https://bjango.com/mac/istatmenus/
 [Arq]: https://arqbackup.com
 [Resolutionator]: http://manytricks.com/resolutionator/
 [Rectangle]: https://rectangleapp.com/

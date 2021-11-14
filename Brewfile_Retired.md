@@ -66,6 +66,7 @@ cask "tripmode"
 cask "audio-hijack"
 cask "loopback"
 cask "soundsource"
+cask "istat-menus"
 
 # Mac App Store Installs
 mas "Blackmagic Disk Speed Test", id: 425264550
@@ -112,6 +113,8 @@ mas "Trello", id: 1278508951
 <!-- * [Audio Hi-Jack] for recording/routing internal audio -->
 <!-- * [Loopback] for creating virtual internal I/O audio interfaces -->
 <!-- * [Sound Source] for internal OS audio mixing -->
+<!-- * [iStat Menus] for keeping an eye on workstation resources -->
+<!-- * [ Sensei] for keeping an eye on workstation resources -->
 <!-- * [Tripmode] for managing network traffic while tethered to mobile devices -->
 
 # Mac App Store Applications:
@@ -151,6 +154,8 @@ mas "Trello", id: 1278508951
 <!-- [Audio Hi-Jack]: https://www.rogueamoeba.com/audiohijack/ -->
 <!-- [Loopback]: https://www.rogueamoeba.com/loopback/ -->
 <!-- [Sound Source]: https://rogueamoeba.com/soundsource/ -->
+<!-- [iStat Menus]: https://bjango.com/mac/istatmenus/ -->
+<!-- [Sensei]: https://sensei.app/ -->
 <!-- [Tripmode]: http://tripmode.ch/ -->
 <!-- [Video2GIF]: https://itunes.apple.com/us/app/video2gif/id672062950?mt=12 -->
 <!-- [Tweetbot]: https://tapbots.com/tweetbot/mac/ -->
