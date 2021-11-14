@@ -107,6 +107,7 @@ cask "istat-menus"
 cask "musescore"
 cask "freedom"
 cask "gas-mask"
+cask "cheatsheet"
 
 # Security
 cask "1password"
