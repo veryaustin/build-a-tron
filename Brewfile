@@ -102,10 +102,10 @@ cask "pixelsnap"
 cask "rocket"
 cask "screenflow"
 cask "gpgtools"
-cask "istat-menus"
 cask "musescore"
 cask "freedom"
 cask "gas-mask"
+cask "cheatsheet"
 
 # Security
 cask "1password"

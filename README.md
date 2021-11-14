@@ -113,7 +113,7 @@ Brew Cask Applications:
 * [MuseScore] for writing down musical notes
 * [Freedom] for getting focus in a distracted digital world. Focus!
 * [Gas Mask] A GUI for managing hosts file
-* [iStat Menus] for keeping an eye on workstation resources
+* [CheatSheet] View all shortcuts in active app
 * [Arq] for backup. Better to be safe:)
 * [Resolutionator] for quickly switching screen resolutions
 * [Rectangle] for managing windows
@@ -208,7 +208,7 @@ Mac App Store Applications:
 [MuseScore]: https://musescore.org
 [Freedom]: https://http://freedom.to
 [Gas Mask]: https://github.com/2ndalpha/gasmask
-[iStat Menus]: https://bjango.com/mac/istatmenus/
+[Cheatsheet]: https://www.cheatsheetapp.com/CheatSheet/
 [Arq]: https://arqbackup.com
 [Resolutionator]: http://manytricks.com/resolutionator/
 [Rectangle]: https://rectangleapp.com/
